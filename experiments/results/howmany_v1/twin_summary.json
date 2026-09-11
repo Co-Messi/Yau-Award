@@ -1,0 +1,71 @@
+{
+  "value": {
+    "seeds": 3,
+    "16": {
+      "control_median": 0.94921875,
+      "control_min": 0.5625,
+      "k1_median": 0.51171875
+    },
+    "32": {
+      "control_median": 0.5,
+      "control_min": 0.5,
+      "k1_median": 0.5
+    },
+    "48": {
+      "control_median": 0.5,
+      "control_min": 0.5,
+      "k1_median": 0.5
+    },
+    "96": {
+      "control_median": 0.5,
+      "control_min": 0.5,
+      "k1_median": 0.5
+    }
+  },
+  "meanpool": {
+    "seeds": 3,
+    "16": {
+      "control_median": 1.0,
+      "control_min": 0.98046875,
+      "k1_median": 0.79296875
+    },
+    "32": {
+      "control_median": 1.0,
+      "control_min": 0.828125,
+      "k1_median": 0.5
+    },
+    "48": {
+      "control_median": 0.95703125,
+      "control_min": 0.5,
+      "k1_median": 0.5
+    },
+    "96": {
+      "control_median": 0.5,
+      "control_min": 0.5,
+      "k1_median": 0.5
+    }
+  },
+  "tally": {
+    "seeds": 3,
+    "16": {
+      "control_median": 0.99609375,
+      "control_min": 0.5,
+      "k1_median": 1.0
+    },
+    "32": {
+      "control_median": 1.0,
+      "control_min": 0.5,
+      "k1_median": 1.0
+    },
+    "48": {
+      "control_median": 1.0,
+      "control_min": 0.5,
+      "k1_median": 1.0
+    },
+    "96": {
+      "control_median": 1.0,
+      "control_min": 0.5,
+      "k1_median": 1.0
+    }
+  }
+}

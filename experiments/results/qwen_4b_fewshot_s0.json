@@ -1,0 +1,51 @@
+{
+  "arm": "fewshot",
+  "seed": 0,
+  "results": {
+    "8": {
+      "exact": 0.078125,
+      "mae": 3.703125,
+      "parse_rate": 1.0
+    },
+    "16": {
+      "exact": 0.0,
+      "mae": 33.75,
+      "parse_rate": 1.0
+    },
+    "24": {
+      "exact": 0.03125,
+      "mae": 28.40625,
+      "parse_rate": 1.0
+    },
+    "32": {
+      "exact": 0.0,
+      "mae": 107.0,
+      "parse_rate": 1.0
+    },
+    "48": {
+      "exact": 0.0,
+      "mae": 440.0,
+      "parse_rate": 1.0
+    },
+    "64": {
+      "exact": 0.0,
+      "mae": 203.203125,
+      "parse_rate": 1.0
+    },
+    "96": {
+      "exact": 0.0,
+      "mae": 1568.5,
+      "parse_rate": 1.0
+    },
+    "128": {
+      "exact": 0.0,
+      "mae": 3018.640625,
+      "parse_rate": 1.0
+    },
+    "160": {
+      "exact": 0.0,
+      "mae": 4345.171875,
+      "parse_rate": 1.0
+    }
+  }
+}

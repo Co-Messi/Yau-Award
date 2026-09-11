@@ -1,0 +1,3262 @@
+{
+  "model": "pro",
+  "arm": "cot",
+  "source": "MASTER_INDEX.tsv",
+  "cells": {
+    "year_inv_n16": {
+      "n": 16,
+      "kind": "year_inv",
+      "docs": 20,
+      "answer_rate": 1.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 1.0,
+      "mae": 0.0,
+      "mean_truth": 13.7,
+      "null_mae": 18.18,
+      "null_exact": 0.0,
+      "in_tok": 498.9,
+      "out_tok": 719.95,
+      "sec": 8.959370577335358,
+      "records": [
+        {
+          "truth": 39,
+          "pred": 39.0,
+          "hedged": false,
+          "raw": "39",
+          "in_tok": 488,
+          "out_tok": 2124,
+          "rt": 4874,
+          "sec": 22.389089107513428
+        },
+        {
+          "truth": 48,
+          "pred": 48.0,
+          "hedged": false,
+          "raw": "48",
+          "in_tok": 509,
+          "out_tok": 2762,
+          "rt": 6821,
+          "sec": 31.044665098190308
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 493,
+          "out_tok": 110,
+          "rt": 429,
+          "sec": 2.8568670749664307
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 517,
+          "out_tok": 155,
+          "rt": 537,
+          "sec": 3.388292074203491
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 478,
+          "out_tok": 132,
+          "rt": 436,
+          "sec": 2.774156093597412
+        },
+        {
+          "truth": 25,
+          "pred": 25.0,
+          "hedged": false,
+          "raw": "25",
+          "in_tok": 496,
+          "out_tok": 545,
+          "rt": 1349,
+          "sec": 6.791820049285889
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 491,
+          "out_tok": 100,
+          "rt": 369,
+          "sec": 2.621591091156006
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 498,
+          "out_tok": 142,
+          "rt": 556,
+          "sec": 3.1880738735198975
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 520,
+          "out_tok": 149,
+          "rt": 551,
+          "sec": 3.2971372604370117
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 487,
+          "out_tok": 116,
+          "rt": 476,
+          "sec": 2.8308019638061523
+        },
+        {
+          "truth": 10,
+          "pred": 10.0,
+          "hedged": false,
+          "raw": "10",
+          "in_tok": 489,
+          "out_tok": 641,
+          "rt": 1783,
+          "sec": 9.033569097518921
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 502,
+          "out_tok": 421,
+          "rt": 1634,
+          "sec": 6.511770963668823
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 504,
+          "out_tok": 229,
+          "rt": 853,
+          "sec": 3.8172171115875244
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 512,
+          "out_tok": 82,
+          "rt": 337,
+          "sec": 1.7341959476470947
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 512,
+          "out_tok": 141,
+          "rt": 506,
+          "sec": 3.139129877090454
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 515,
+          "out_tok": 259,
+          "rt": 1036,
+          "sec": 5.079335927963257
+        },
+        {
+          "truth": 39,
+          "pred": 39.0,
+          "hedged": false,
+          "raw": "39",
+          "in_tok": 480,
+          "out_tok": 2216,
+          "rt": 5462,
+          "sec": 24.031320810317993
+        },
+        {
+          "truth": 60,
+          "pred": 60.0,
+          "hedged": false,
+          "raw": "60",
+          "in_tok": 494,
+          "out_tok": 1643,
+          "rt": 3799,
+          "sec": 17.317682027816772
+        },
+        {
+          "truth": 53,
+          "pred": 53.0,
+          "hedged": false,
+          "raw": "53",
+          "in_tok": 495,
+          "out_tok": 2262,
+          "rt": 5142,
+          "sec": 23.88792085647583
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 498,
+          "out_tok": 170,
+          "rt": 667,
+          "sec": 3.452775239944458
+        }
+      ]
+    },
+    "year_inv_n32": {
+      "n": 32,
+      "kind": "year_inv",
+      "docs": 20,
+      "answer_rate": 0.65,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.65,
+      "mae": 0.0,
+      "mean_truth": 88.7,
+      "null_mae": 69.06,
+      "null_exact": 0.0,
+      "in_tok": 798.65,
+      "out_tok": 2141.2,
+      "sec": 23.242265546321867,
+      "records": [
+        {
+          "truth": 137,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 793,
+          "out_tok": 4096,
+          "rt": 9026,
+          "sec": 41.05127716064453
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 819,
+          "out_tok": 120,
+          "rt": 436,
+          "sec": 3.1447668075561523
+        },
+        {
+          "truth": 179,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 835,
+          "out_tok": 4096,
+          "rt": 9343,
+          "sec": 42.81926894187927
+        },
+        {
+          "truth": 119,
+          "pred": 119.0,
+          "hedged": false,
+          "raw": "119",
+          "in_tok": 778,
+          "out_tok": 2245,
+          "rt": 5157,
+          "sec": 25.11181902885437
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 792,
+          "out_tok": 118,
+          "rt": 427,
+          "sec": 3.259260892868042
+        },
+        {
+          "truth": 123,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 783,
+          "out_tok": 4096,
+          "rt": 9679,
+          "sec": 42.10077500343323
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 797,
+          "out_tok": 86,
+          "rt": 322,
+          "sec": 2.372992992401123
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 803,
+          "out_tok": 101,
+          "rt": 384,
+          "sec": 2.946727991104126
+        },
+        {
+          "truth": 110,
+          "pred": 110.0,
+          "hedged": false,
+          "raw": "110",
+          "in_tok": 802,
+          "out_tok": 2943,
+          "rt": 6801,
+          "sec": 32.25088715553284
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 806,
+          "out_tok": 80,
+          "rt": 300,
+          "sec": 2.764103889465332
+        },
+        {
+          "truth": 195,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 813,
+          "out_tok": 4096,
+          "rt": 8341,
+          "sec": 39.34158110618591
+        },
+        {
+          "truth": 105,
+          "pred": 105.0,
+          "hedged": false,
+          "raw": "105",
+          "in_tok": 783,
+          "out_tok": 3297,
+          "rt": 7311,
+          "sec": 36.35317397117615
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 825,
+          "out_tok": 181,
+          "rt": 707,
+          "sec": 3.7874979972839355
+        },
+        {
+          "truth": 171,
+          "pred": 171.0,
+          "hedged": false,
+          "raw": "171",
+          "in_tok": 790,
+          "out_tok": 1268,
+          "rt": 3102,
+          "sec": 14.916218996047974
+        },
+        {
+          "truth": 19,
+          "pred": 19.0,
+          "hedged": false,
+          "raw": "19",
+          "in_tok": 807,
+          "out_tok": 751,
+          "rt": 2186,
+          "sec": 9.41510009765625
+        },
+        {
+          "truth": 203,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 812,
+          "out_tok": 4096,
+          "rt": 9287,
+          "sec": 41.40494918823242
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 810,
+          "out_tok": 113,
+          "rt": 419,
+          "sec": 2.7557501792907715
+        },
+        {
+          "truth": 110,
+          "pred": 110.0,
+          "hedged": false,
+          "raw": "110",
+          "in_tok": 778,
+          "out_tok": 2849,
+          "rt": 7039,
+          "sec": 28.731024265289307
+        },
+        {
+          "truth": 150,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 781,
+          "out_tok": 4096,
+          "rt": 9647,
+          "sec": 44.64760613441467
+        },
+        {
+          "truth": 153,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 766,
+          "out_tok": 4096,
+          "rt": 10021,
+          "sec": 45.67052912712097
+        }
+      ]
+    },
+    "year_inv_n64": {
+      "n": 64,
+      "kind": "year_inv",
+      "docs": 20,
+      "answer_rate": 0.1,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.1,
+      "mae": 0.0,
+      "mean_truth": 612.5,
+      "null_mae": 177.0,
+      "null_exact": 0.0,
+      "in_tok": 1402.3,
+      "out_tok": 3988.9,
+      "sec": 38.52080872058868,
+      "records": [
+        {
+          "truth": 759,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1396,
+          "out_tok": 4096,
+          "rt": 8597,
+          "sec": 36.57109212875366
+        },
+        {
+          "truth": 439,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1388,
+          "out_tok": 4096,
+          "rt": 9601,
+          "sec": 41.387792110443115
+        },
+        {
+          "truth": 786,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1360,
+          "out_tok": 4096,
+          "rt": 8602,
+          "sec": 37.8377571105957
+        },
+        {
+          "truth": 342,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1422,
+          "out_tok": 4096,
+          "rt": 8866,
+          "sec": 38.47178912162781
+        },
+        {
+          "truth": 782,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1360,
+          "out_tok": 4096,
+          "rt": 8767,
+          "sec": 36.45438480377197
+        },
+        {
+          "truth": 459,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1422,
+          "out_tok": 4096,
+          "rt": 10237,
+          "sec": 39.82695198059082
+        },
+        {
+          "truth": 674,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1356,
+          "out_tok": 4096,
+          "rt": 8516,
+          "sec": 37.58374214172363
+        },
+        {
+          "truth": 598,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1408,
+          "out_tok": 4096,
+          "rt": 9324,
+          "sec": 56.72027802467346
+        },
+        {
+          "truth": 859,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1447,
+          "out_tok": 4096,
+          "rt": 7754,
+          "sec": 35.72840118408203
+        },
+        {
+          "truth": 741,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1406,
+          "out_tok": 4096,
+          "rt": 8422,
+          "sec": 38.43504595756531
+        },
+        {
+          "truth": 696,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1386,
+          "out_tok": 4096,
+          "rt": 8370,
+          "sec": 38.974920988082886
+        },
+        {
+          "truth": 310,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1396,
+          "out_tok": 4096,
+          "rt": 10390,
+          "sec": 39.08621597290039
+        },
+        {
+          "truth": 188,
+          "pred": 188.0,
+          "hedged": false,
+          "raw": "188",
+          "in_tok": 1436,
+          "out_tok": 2264,
+          "rt": 5579,
+          "sec": 24.43818974494934
+        },
+        {
+          "truth": 888,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1412,
+          "out_tok": 4096,
+          "rt": 9461,
+          "sec": 36.911755084991455
+        },
+        {
+          "truth": 357,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1434,
+          "out_tok": 4096,
+          "rt": 9576,
+          "sec": 43.361761808395386
+        },
+        {
+          "truth": 641,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1412,
+          "out_tok": 4096,
+          "rt": 9541,
+          "sec": 39.48712992668152
+        },
+        {
+          "truth": 783,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1440,
+          "out_tok": 4096,
+          "rt": 9761,
+          "sec": 36.91846704483032
+        },
+        {
+          "truth": 773,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1363,
+          "out_tok": 4096,
+          "rt": 8895,
+          "sec": 37.96823501586914
+        },
+        {
+          "truth": 437,
+          "pred": 437.0,
+          "hedged": false,
+          "raw": "437",
+          "in_tok": 1406,
+          "out_tok": 3786,
+          "rt": 9354,
+          "sec": 35.2026481628418
+        },
+        {
+          "truth": 738,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 1396,
+          "out_tok": 4096,
+          "rt": 8664,
+          "sec": 39.04961609840393
+        }
+      ]
+    },
+    "year_inv_n128": {
+      "n": 128,
+      "kind": "year_inv",
+      "docs": 20,
+      "answer_rate": 0.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.0,
+      "mae": null,
+      "mean_truth": 2834.05,
+      "null_mae": 337.95,
+      "null_exact": 0.0,
+      "in_tok": 2632.15,
+      "out_tok": 4096.0,
+      "sec": 35.752222013473514,
+      "records": [
+        {
+          "truth": 2939,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2605,
+          "out_tok": 4096,
+          "rt": 8442,
+          "sec": 35.20934009552002
+        },
+        {
+          "truth": 2405,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2629,
+          "out_tok": 4096,
+          "rt": 8393,
+          "sec": 35.13318204879761
+        },
+        {
+          "truth": 3321,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2602,
+          "out_tok": 4096,
+          "rt": 8359,
+          "sec": 36.55728507041931
+        },
+        {
+          "truth": 3346,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2605,
+          "out_tok": 4096,
+          "rt": 8244,
+          "sec": 34.454330921173096
+        },
+        {
+          "truth": 3068,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2601,
+          "out_tok": 4096,
+          "rt": 7706,
+          "sec": 34.6397922039032
+        },
+        {
+          "truth": 2718,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2662,
+          "out_tok": 4096,
+          "rt": 8276,
+          "sec": 37.89713501930237
+        },
+        {
+          "truth": 3176,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2594,
+          "out_tok": 4096,
+          "rt": 8163,
+          "sec": 36.596851110458374
+        },
+        {
+          "truth": 3033,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2665,
+          "out_tok": 4096,
+          "rt": 8843,
+          "sec": 35.44765496253967
+        },
+        {
+          "truth": 2895,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2672,
+          "out_tok": 4096,
+          "rt": 7913,
+          "sec": 34.06997108459473
+        },
+        {
+          "truth": 2728,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2648,
+          "out_tok": 4096,
+          "rt": 8990,
+          "sec": 40.10319495201111
+        },
+        {
+          "truth": 2422,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2628,
+          "out_tok": 4096,
+          "rt": 11153,
+          "sec": 36.02347803115845
+        },
+        {
+          "truth": 2455,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2688,
+          "out_tok": 4096,
+          "rt": 7858,
+          "sec": 34.16891169548035
+        },
+        {
+          "truth": 2513,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2640,
+          "out_tok": 4096,
+          "rt": 8449,
+          "sec": 35.549856185913086
+        },
+        {
+          "truth": 2188,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2612,
+          "out_tok": 4096,
+          "rt": 8925,
+          "sec": 38.17768311500549
+        },
+        {
+          "truth": 2721,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2687,
+          "out_tok": 4096,
+          "rt": 9036,
+          "sec": 35.963046073913574
+        },
+        {
+          "truth": 2146,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2611,
+          "out_tok": 4096,
+          "rt": 8018,
+          "sec": 34.29344320297241
+        },
+        {
+          "truth": 2665,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2672,
+          "out_tok": 4096,
+          "rt": 8485,
+          "sec": 34.69088101387024
+        },
+        {
+          "truth": 2990,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2607,
+          "out_tok": 4096,
+          "rt": 8523,
+          "sec": 35.79850220680237
+        },
+        {
+          "truth": 3606,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2608,
+          "out_tok": 4096,
+          "rt": 8293,
+          "sec": 35.85123419761658
+        },
+        {
+          "truth": 3346,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2607,
+          "out_tok": 4096,
+          "rt": 8058,
+          "sec": 34.41866707801819
+        }
+      ]
+    },
+    "year_inv_n256": {
+      "n": 256,
+      "kind": "year_inv",
+      "docs": 20,
+      "answer_rate": 0.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.0,
+      "mae": null,
+      "mean_truth": 12371.9,
+      "null_mae": 626.4100000000001,
+      "null_exact": 0.0,
+      "in_tok": 5077.4,
+      "out_tok": 4096.0,
+      "sec": 40.3510945558548,
+      "records": [
+        {
+          "truth": 12330,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5062,
+          "out_tok": 4096,
+          "rt": 8439,
+          "sec": 36.41534185409546
+        },
+        {
+          "truth": 12861,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5103,
+          "out_tok": 4096,
+          "rt": 8517,
+          "sec": 37.11626386642456
+        },
+        {
+          "truth": 13429,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5100,
+          "out_tok": 4096,
+          "rt": 8647,
+          "sec": 38.44918131828308
+        },
+        {
+          "truth": 12839,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5069,
+          "out_tok": 4096,
+          "rt": 9151,
+          "sec": 37.99970722198486
+        },
+        {
+          "truth": 12573,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5063,
+          "out_tok": 4096,
+          "rt": 8164,
+          "sec": 38.11416006088257
+        },
+        {
+          "truth": 11038,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5039,
+          "out_tok": 4096,
+          "rt": 8312,
+          "sec": 36.156404972076416
+        },
+        {
+          "truth": 12139,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5099,
+          "out_tok": 4096,
+          "rt": 8252,
+          "sec": 36.708823919296265
+        },
+        {
+          "truth": 12972,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5091,
+          "out_tok": 4096,
+          "rt": 8206,
+          "sec": 35.926904916763306
+        },
+        {
+          "truth": 11983,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5100,
+          "out_tok": 4096,
+          "rt": 9134,
+          "sec": 41.507781982421875
+        },
+        {
+          "truth": 12876,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5099,
+          "out_tok": 4096,
+          "rt": 10078,
+          "sec": 44.414414167404175
+        },
+        {
+          "truth": 12753,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5064,
+          "out_tok": 4096,
+          "rt": 9123,
+          "sec": 39.928114891052246
+        },
+        {
+          "truth": 12921,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5107,
+          "out_tok": 4096,
+          "rt": 8454,
+          "sec": 36.87540102005005
+        },
+        {
+          "truth": 11593,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5059,
+          "out_tok": 4096,
+          "rt": 8592,
+          "sec": 37.96678614616394
+        },
+        {
+          "truth": 12797,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5063,
+          "out_tok": 4096,
+          "rt": 8281,
+          "sec": 38.229467153549194
+        },
+        {
+          "truth": 11545,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5041,
+          "out_tok": 4096,
+          "rt": 9351,
+          "sec": 39.02983808517456
+        },
+        {
+          "truth": 10729,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5063,
+          "out_tok": 4096,
+          "rt": 8355,
+          "sec": 43.393070220947266
+        },
+        {
+          "truth": 11591,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5056,
+          "out_tok": 4096,
+          "rt": 8524,
+          "sec": 49.663447856903076
+        },
+        {
+          "truth": 13359,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5071,
+          "out_tok": 4096,
+          "rt": 8632,
+          "sec": 46.51753807067871
+        },
+        {
+          "truth": 12135,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5100,
+          "out_tok": 4096,
+          "rt": 7379,
+          "sec": 45.98477625846863
+        },
+        {
+          "truth": 12975,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5099,
+          "out_tok": 4096,
+          "rt": 8161,
+          "sec": 46.62446713447571
+        }
+      ]
+    },
+    "subj_dup_n16": {
+      "n": 16,
+      "kind": "subj_dup",
+      "docs": 20,
+      "answer_rate": 1.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 1.0,
+      "mae": 0.0,
+      "mean_truth": 30.25,
+      "null_mae": 10.55,
+      "null_exact": 0.0,
+      "in_tok": 497.9,
+      "out_tok": 312.7,
+      "sec": 5.65422933101654,
+      "records": [
+        {
+          "truth": 18,
+          "pred": 18.0,
+          "hedged": false,
+          "raw": "18",
+          "in_tok": 497,
+          "out_tok": 208,
+          "rt": 474,
+          "sec": 4.311896085739136
+        },
+        {
+          "truth": 40,
+          "pred": 40.0,
+          "hedged": false,
+          "raw": "40",
+          "in_tok": 483,
+          "out_tok": 238,
+          "rt": 660,
+          "sec": 4.163272857666016
+        },
+        {
+          "truth": 20,
+          "pred": 20.0,
+          "hedged": false,
+          "raw": "20",
+          "in_tok": 512,
+          "out_tok": 269,
+          "rt": 683,
+          "sec": 4.110696792602539
+        },
+        {
+          "truth": 24,
+          "pred": 24.0,
+          "hedged": false,
+          "raw": "24",
+          "in_tok": 501,
+          "out_tok": 465,
+          "rt": 1318,
+          "sec": 6.677680015563965
+        },
+        {
+          "truth": 23,
+          "pred": 23.0,
+          "hedged": false,
+          "raw": "23",
+          "in_tok": 471,
+          "out_tok": 220,
+          "rt": 545,
+          "sec": 4.117838144302368
+        },
+        {
+          "truth": 41,
+          "pred": 41.0,
+          "hedged": false,
+          "raw": "41",
+          "in_tok": 502,
+          "out_tok": 280,
+          "rt": 711,
+          "sec": 5.036772966384888
+        },
+        {
+          "truth": 37,
+          "pred": 37.0,
+          "hedged": false,
+          "raw": "37",
+          "in_tok": 503,
+          "out_tok": 399,
+          "rt": 1133,
+          "sec": 6.487368822097778
+        },
+        {
+          "truth": 35,
+          "pred": 35.0,
+          "hedged": false,
+          "raw": "35",
+          "in_tok": 497,
+          "out_tok": 214,
+          "rt": 629,
+          "sec": 4.850166082382202
+        },
+        {
+          "truth": 43,
+          "pred": 43.0,
+          "hedged": false,
+          "raw": "43",
+          "in_tok": 521,
+          "out_tok": 277,
+          "rt": 728,
+          "sec": 5.003745079040527
+        },
+        {
+          "truth": 36,
+          "pred": 36.0,
+          "hedged": false,
+          "raw": "36",
+          "in_tok": 516,
+          "out_tok": 403,
+          "rt": 1189,
+          "sec": 6.165236949920654
+        },
+        {
+          "truth": 18,
+          "pred": 18.0,
+          "hedged": false,
+          "raw": "18",
+          "in_tok": 487,
+          "out_tok": 346,
+          "rt": 914,
+          "sec": 6.104078769683838
+        },
+        {
+          "truth": 43,
+          "pred": 43.0,
+          "hedged": false,
+          "raw": "43",
+          "in_tok": 492,
+          "out_tok": 264,
+          "rt": 660,
+          "sec": 4.994999885559082
+        },
+        {
+          "truth": 47,
+          "pred": 47.0,
+          "hedged": false,
+          "raw": "47",
+          "in_tok": 512,
+          "out_tok": 270,
+          "rt": 685,
+          "sec": 4.847851037979126
+        },
+        {
+          "truth": 39,
+          "pred": 39.0,
+          "hedged": false,
+          "raw": "39",
+          "in_tok": 486,
+          "out_tok": 301,
+          "rt": 824,
+          "sec": 5.522660732269287
+        },
+        {
+          "truth": 19,
+          "pred": 19.0,
+          "hedged": false,
+          "raw": "19",
+          "in_tok": 491,
+          "out_tok": 268,
+          "rt": 615,
+          "sec": 4.046753883361816
+        },
+        {
+          "truth": 47,
+          "pred": 47.0,
+          "hedged": false,
+          "raw": "47",
+          "in_tok": 481,
+          "out_tok": 396,
+          "rt": 1049,
+          "sec": 8.364212036132812
+        },
+        {
+          "truth": 26,
+          "pred": 26.0,
+          "hedged": false,
+          "raw": "26",
+          "in_tok": 508,
+          "out_tok": 295,
+          "rt": 745,
+          "sec": 5.587277889251709
+        },
+        {
+          "truth": 15,
+          "pred": 15.0,
+          "hedged": false,
+          "raw": "15",
+          "in_tok": 515,
+          "out_tok": 459,
+          "rt": 1335,
+          "sec": 10.096505641937256
+        },
+        {
+          "truth": 15,
+          "pred": 15.0,
+          "hedged": false,
+          "raw": "15",
+          "in_tok": 494,
+          "out_tok": 461,
+          "rt": 1327,
+          "sec": 7.503787994384766
+        },
+        {
+          "truth": 19,
+          "pred": 19.0,
+          "hedged": false,
+          "raw": "19",
+          "in_tok": 489,
+          "out_tok": 221,
+          "rt": 620,
+          "sec": 5.091784954071045
+        }
+      ]
+    },
+    "subj_dup_n32": {
+      "n": 32,
+      "kind": "subj_dup",
+      "docs": 20,
+      "answer_rate": 1.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 1.0,
+      "mae": 0.0,
+      "mean_truth": 109.2,
+      "null_mae": 15.319999999999999,
+      "null_exact": 0.0,
+      "in_tok": 801.5,
+      "out_tok": 730.65,
+      "sec": 9.128499591350556,
+      "records": [
+        {
+          "truth": 99,
+          "pred": 99.0,
+          "hedged": false,
+          "raw": "99",
+          "in_tok": 787,
+          "out_tok": 492,
+          "rt": 1446,
+          "sec": 6.968714952468872
+        },
+        {
+          "truth": 104,
+          "pred": 104.0,
+          "hedged": false,
+          "raw": "104",
+          "in_tok": 811,
+          "out_tok": 1093,
+          "rt": 2805,
+          "sec": 13.632407188415527
+        },
+        {
+          "truth": 86,
+          "pred": 86.0,
+          "hedged": false,
+          "raw": "86",
+          "in_tok": 830,
+          "out_tok": 1003,
+          "rt": 2853,
+          "sec": 11.935356140136719
+        },
+        {
+          "truth": 139,
+          "pred": 139.0,
+          "hedged": false,
+          "raw": "139",
+          "in_tok": 803,
+          "out_tok": 505,
+          "rt": 1527,
+          "sec": 8.115873098373413
+        },
+        {
+          "truth": 114,
+          "pred": 114.0,
+          "hedged": false,
+          "raw": "114",
+          "in_tok": 793,
+          "out_tok": 571,
+          "rt": 1448,
+          "sec": 6.962308883666992
+        },
+        {
+          "truth": 139,
+          "pred": 139.0,
+          "hedged": false,
+          "raw": "139",
+          "in_tok": 811,
+          "out_tok": 483,
+          "rt": 1240,
+          "sec": 6.400620937347412
+        },
+        {
+          "truth": 89,
+          "pred": 89.0,
+          "hedged": false,
+          "raw": "89",
+          "in_tok": 830,
+          "out_tok": 947,
+          "rt": 2583,
+          "sec": 11.578310012817383
+        },
+        {
+          "truth": 93,
+          "pred": 93.0,
+          "hedged": false,
+          "raw": "93",
+          "in_tok": 785,
+          "out_tok": 585,
+          "rt": 1305,
+          "sec": 6.992207765579224
+        },
+        {
+          "truth": 131,
+          "pred": 131.0,
+          "hedged": false,
+          "raw": "131",
+          "in_tok": 813,
+          "out_tok": 552,
+          "rt": 1461,
+          "sec": 7.748078107833862
+        },
+        {
+          "truth": 127,
+          "pred": 127.0,
+          "hedged": false,
+          "raw": "127",
+          "in_tok": 799,
+          "out_tok": 567,
+          "rt": 1481,
+          "sec": 6.65311598777771
+        },
+        {
+          "truth": 91,
+          "pred": 91.0,
+          "hedged": false,
+          "raw": "91",
+          "in_tok": 779,
+          "out_tok": 617,
+          "rt": 1521,
+          "sec": 7.602215766906738
+        },
+        {
+          "truth": 104,
+          "pred": 104.0,
+          "hedged": false,
+          "raw": "104",
+          "in_tok": 811,
+          "out_tok": 856,
+          "rt": 2307,
+          "sec": 12.403690099716187
+        },
+        {
+          "truth": 114,
+          "pred": 114.0,
+          "hedged": false,
+          "raw": "114",
+          "in_tok": 793,
+          "out_tok": 418,
+          "rt": 1040,
+          "sec": 6.692821979522705
+        },
+        {
+          "truth": 90,
+          "pred": 90.0,
+          "hedged": false,
+          "raw": "90",
+          "in_tok": 810,
+          "out_tok": 856,
+          "rt": 2271,
+          "sec": 10.367405891418457
+        },
+        {
+          "truth": 106,
+          "pred": 106.0,
+          "hedged": false,
+          "raw": "106",
+          "in_tok": 816,
+          "out_tok": 402,
+          "rt": 948,
+          "sec": 5.391850233078003
+        },
+        {
+          "truth": 131,
+          "pred": 131.0,
+          "hedged": false,
+          "raw": "131",
+          "in_tok": 819,
+          "out_tok": 874,
+          "rt": 2263,
+          "sec": 11.397727012634277
+        },
+        {
+          "truth": 108,
+          "pred": 108.0,
+          "hedged": false,
+          "raw": "108",
+          "in_tok": 784,
+          "out_tok": 673,
+          "rt": 1783,
+          "sec": 8.090120077133179
+        },
+        {
+          "truth": 114,
+          "pred": 114.0,
+          "hedged": false,
+          "raw": "114",
+          "in_tok": 787,
+          "out_tok": 1515,
+          "rt": 4165,
+          "sec": 14.900448083877563
+        },
+        {
+          "truth": 127,
+          "pred": 127.0,
+          "hedged": false,
+          "raw": "127",
+          "in_tok": 799,
+          "out_tok": 861,
+          "rt": 2572,
+          "sec": 9.334338665008545
+        },
+        {
+          "truth": 78,
+          "pred": 78.0,
+          "hedged": false,
+          "raw": "78",
+          "in_tok": 770,
+          "out_tok": 743,
+          "rt": 2003,
+          "sec": 9.40238094329834
+        }
+      ]
+    },
+    "subj_dup_n64": {
+      "n": 64,
+      "kind": "subj_dup",
+      "docs": 20,
+      "answer_rate": 1.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 1.0,
+      "mae": 0.0,
+      "mean_truth": 341.15,
+      "null_mae": 16.835,
+      "null_exact": 0.0,
+      "in_tok": 1409.85,
+      "out_tok": 1617.25,
+      "sec": 15.873609268665314,
+      "records": [
+        {
+          "truth": 346,
+          "pred": 346.0,
+          "hedged": false,
+          "raw": "346",
+          "in_tok": 1415,
+          "out_tok": 1550,
+          "rt": 4031,
+          "sec": 15.77492094039917
+        },
+        {
+          "truth": 313,
+          "pred": 313.0,
+          "hedged": false,
+          "raw": "313",
+          "in_tok": 1436,
+          "out_tok": 1303,
+          "rt": 3118,
+          "sec": 12.379711866378784
+        },
+        {
+          "truth": 332,
+          "pred": 332.0,
+          "hedged": false,
+          "raw": "332",
+          "in_tok": 1443,
+          "out_tok": 1327,
+          "rt": 3096,
+          "sec": 12.551477909088135
+        },
+        {
+          "truth": 333,
+          "pred": 333.0,
+          "hedged": false,
+          "raw": "333",
+          "in_tok": 1383,
+          "out_tok": 2027,
+          "rt": 5756,
+          "sec": 19.13508105278015
+        },
+        {
+          "truth": 349,
+          "pred": 349.0,
+          "hedged": false,
+          "raw": "349",
+          "in_tok": 1389,
+          "out_tok": 1140,
+          "rt": 2925,
+          "sec": 11.115370988845825
+        },
+        {
+          "truth": 325,
+          "pred": 325.0,
+          "hedged": false,
+          "raw": "325",
+          "in_tok": 1435,
+          "out_tok": 2035,
+          "rt": 5691,
+          "sec": 19.986184120178223
+        },
+        {
+          "truth": 349,
+          "pred": 349.0,
+          "hedged": false,
+          "raw": "349",
+          "in_tok": 1365,
+          "out_tok": 2628,
+          "rt": 7000,
+          "sec": 23.134348154067993
+        },
+        {
+          "truth": 347,
+          "pred": 347.0,
+          "hedged": false,
+          "raw": "347",
+          "in_tok": 1360,
+          "out_tok": 1719,
+          "rt": 4199,
+          "sec": 17.20280122756958
+        },
+        {
+          "truth": 370,
+          "pred": 370.0,
+          "hedged": false,
+          "raw": "370",
+          "in_tok": 1445,
+          "out_tok": 1438,
+          "rt": 3736,
+          "sec": 15.735612154006958
+        },
+        {
+          "truth": 360,
+          "pred": 360.0,
+          "hedged": false,
+          "raw": "360",
+          "in_tok": 1361,
+          "out_tok": 2403,
+          "rt": 6512,
+          "sec": 22.111522912979126
+        },
+        {
+          "truth": 335,
+          "pred": 335.0,
+          "hedged": false,
+          "raw": "335",
+          "in_tok": 1440,
+          "out_tok": 1494,
+          "rt": 3655,
+          "sec": 14.813524007797241
+        },
+        {
+          "truth": 350,
+          "pred": 350.0,
+          "hedged": false,
+          "raw": "350",
+          "in_tok": 1360,
+          "out_tok": 1063,
+          "rt": 2734,
+          "sec": 11.452293157577515
+        },
+        {
+          "truth": 349,
+          "pred": 349.0,
+          "hedged": false,
+          "raw": "349",
+          "in_tok": 1395,
+          "out_tok": 1477,
+          "rt": 3720,
+          "sec": 15.383246183395386
+        },
+        {
+          "truth": 320,
+          "pred": 320.0,
+          "hedged": false,
+          "raw": "320",
+          "in_tok": 1441,
+          "out_tok": 1438,
+          "rt": 3756,
+          "sec": 13.632628917694092
+        },
+        {
+          "truth": 320,
+          "pred": 320.0,
+          "hedged": false,
+          "raw": "320",
+          "in_tok": 1441,
+          "out_tok": 1068,
+          "rt": 2668,
+          "sec": 11.44757080078125
+        },
+        {
+          "truth": 404,
+          "pred": 404.0,
+          "hedged": false,
+          "raw": "404",
+          "in_tok": 1401,
+          "out_tok": 2524,
+          "rt": 6726,
+          "sec": 23.23744511604309
+        },
+        {
+          "truth": 312,
+          "pred": 312.0,
+          "hedged": false,
+          "raw": "312",
+          "in_tok": 1433,
+          "out_tok": 1150,
+          "rt": 3227,
+          "sec": 11.59289813041687
+        },
+        {
+          "truth": 346,
+          "pred": 346.0,
+          "hedged": false,
+          "raw": "346",
+          "in_tok": 1407,
+          "out_tok": 1092,
+          "rt": 2849,
+          "sec": 12.520494937896729
+        },
+        {
+          "truth": 312,
+          "pred": 312.0,
+          "hedged": false,
+          "raw": "312",
+          "in_tok": 1433,
+          "out_tok": 1910,
+          "rt": 5267,
+          "sec": 19.01403284072876
+        },
+        {
+          "truth": 351,
+          "pred": 351.0,
+          "hedged": false,
+          "raw": "351",
+          "in_tok": 1414,
+          "out_tok": 1559,
+          "rt": 3954,
+          "sec": 15.251019954681396
+        }
+      ]
+    },
+    "subj_dup_n128": {
+      "n": 128,
+      "kind": "subj_dup",
+      "docs": 20,
+      "answer_rate": 0.75,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.75,
+      "mae": 0.0,
+      "mean_truth": 1388.0,
+      "null_mae": 30.2,
+      "null_exact": 0.0,
+      "in_tok": 2639.9,
+      "out_tok": 2853.95,
+      "sec": 26.92838900089264,
+      "records": [
+        {
+          "truth": 1364,
+          "pred": 1364.0,
+          "hedged": false,
+          "raw": "1364",
+          "in_tok": 2662,
+          "out_tok": 1863,
+          "rt": 4565,
+          "sec": 16.94303822517395
+        },
+        {
+          "truth": 1390,
+          "pred": 1390.0,
+          "hedged": false,
+          "raw": "1390",
+          "in_tok": 2608,
+          "out_tok": 2093,
+          "rt": 5434,
+          "sec": 19.672897815704346
+        },
+        {
+          "truth": 1330,
+          "pred": 1330.0,
+          "hedged": false,
+          "raw": "1330",
+          "in_tok": 2641,
+          "out_tok": 1617,
+          "rt": 4178,
+          "sec": 16.500489950180054
+        },
+        {
+          "truth": 1403,
+          "pred": 1403.0,
+          "hedged": false,
+          "raw": "1403",
+          "in_tok": 2654,
+          "out_tok": 3115,
+          "rt": 7232,
+          "sec": 27.128214120864868
+        },
+        {
+          "truth": 1408,
+          "pred": 1408.0,
+          "hedged": false,
+          "raw": "1408",
+          "in_tok": 2645,
+          "out_tok": 2361,
+          "rt": 5645,
+          "sec": 23.332741260528564
+        },
+        {
+          "truth": 1372,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2630,
+          "out_tok": 4096,
+          "rt": 11500,
+          "sec": 35.847646951675415
+        },
+        {
+          "truth": 1339,
+          "pred": 1339.0,
+          "hedged": false,
+          "raw": "1339",
+          "in_tok": 2675,
+          "out_tok": 1557,
+          "rt": 4837,
+          "sec": 17.70879578590393
+        },
+        {
+          "truth": 1436,
+          "pred": 1436.0,
+          "hedged": false,
+          "raw": "1436",
+          "in_tok": 2631,
+          "out_tok": 2832,
+          "rt": 6746,
+          "sec": 25.368080139160156
+        },
+        {
+          "truth": 1383,
+          "pred": 1383.0,
+          "hedged": false,
+          "raw": "1383",
+          "in_tok": 2626,
+          "out_tok": 2564,
+          "rt": 6424,
+          "sec": 22.94563889503479
+        },
+        {
+          "truth": 1340,
+          "pred": 1340.0,
+          "hedged": false,
+          "raw": "1340",
+          "in_tok": 2671,
+          "out_tok": 3312,
+          "rt": 8186,
+          "sec": 30.462597846984863
+        },
+        {
+          "truth": 1437,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2642,
+          "out_tok": 4096,
+          "rt": 10528,
+          "sec": 40.74911308288574
+        },
+        {
+          "truth": 1420,
+          "pred": 1420.0,
+          "hedged": false,
+          "raw": "1420",
+          "in_tok": 2639,
+          "out_tok": 2599,
+          "rt": 6811,
+          "sec": 25.945363998413086
+        },
+        {
+          "truth": 1400,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2599,
+          "out_tok": 4096,
+          "rt": 11730,
+          "sec": 33.81875014305115
+        },
+        {
+          "truth": 1335,
+          "pred": 1335.0,
+          "hedged": false,
+          "raw": "1335",
+          "in_tok": 2673,
+          "out_tok": 2018,
+          "rt": 5367,
+          "sec": 20.990813970565796
+        },
+        {
+          "truth": 1398,
+          "pred": 1398.0,
+          "hedged": false,
+          "raw": "1398",
+          "in_tok": 2657,
+          "out_tok": 2353,
+          "rt": 6013,
+          "sec": 21.791104078292847
+        },
+        {
+          "truth": 1360,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2669,
+          "out_tok": 4096,
+          "rt": 11510,
+          "sec": 41.7317419052124
+        },
+        {
+          "truth": 1486,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 2605,
+          "out_tok": 4096,
+          "rt": 9653,
+          "sec": 38.08020091056824
+        },
+        {
+          "truth": 1367,
+          "pred": 1367.0,
+          "hedged": false,
+          "raw": "1367",
+          "in_tok": 2657,
+          "out_tok": 2574,
+          "rt": 6652,
+          "sec": 27.11602473258972
+        },
+        {
+          "truth": 1398,
+          "pred": 1398.0,
+          "hedged": false,
+          "raw": "1398",
+          "in_tok": 2608,
+          "out_tok": 2297,
+          "rt": 6175,
+          "sec": 21.57698392868042
+        },
+        {
+          "truth": 1394,
+          "pred": 1394.0,
+          "hedged": false,
+          "raw": "1394",
+          "in_tok": 2606,
+          "out_tok": 3444,
+          "rt": 9494,
+          "sec": 30.857542276382446
+        }
+      ]
+    },
+    "subj_dup_n256": {
+      "n": 256,
+      "kind": "subj_dup",
+      "docs": 20,
+      "answer_rate": 0.05,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.05,
+      "mae": 0.0,
+      "mean_truth": 5459.55,
+      "null_mae": 53.29499999999998,
+      "null_exact": 0.0,
+      "in_tok": 5073.3,
+      "out_tok": 4073.0,
+      "sec": 36.388351035118106,
+      "records": [
+        {
+          "truth": 5513,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5040,
+          "out_tok": 4096,
+          "rt": 10716,
+          "sec": 35.54792881011963
+        },
+        {
+          "truth": 5433,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5092,
+          "out_tok": 4096,
+          "rt": 10252,
+          "sec": 32.80918502807617
+        },
+        {
+          "truth": 5367,
+          "pred": 5367.0,
+          "hedged": false,
+          "raw": "5367",
+          "in_tok": 5095,
+          "out_tok": 3636,
+          "rt": 9492,
+          "sec": 28.66509699821472
+        },
+        {
+          "truth": 5443,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5042,
+          "out_tok": 4096,
+          "rt": 10502,
+          "sec": 32.87226700782776
+        },
+        {
+          "truth": 5376,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5097,
+          "out_tok": 4096,
+          "rt": 9474,
+          "sec": 30.344368934631348
+        },
+        {
+          "truth": 5537,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5046,
+          "out_tok": 4096,
+          "rt": 11293,
+          "sec": 36.57631778717041
+        },
+        {
+          "truth": 5501,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5064,
+          "out_tok": 4096,
+          "rt": 11016,
+          "sec": 33.607996225357056
+        },
+        {
+          "truth": 5377,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5104,
+          "out_tok": 4096,
+          "rt": 10533,
+          "sec": 39.85509490966797
+        },
+        {
+          "truth": 5398,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5101,
+          "out_tok": 4096,
+          "rt": 10150,
+          "sec": 40.70881414413452
+        },
+        {
+          "truth": 5493,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5063,
+          "out_tok": 4096,
+          "rt": 10657,
+          "sec": 37.95834803581238
+        },
+        {
+          "truth": 5513,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5069,
+          "out_tok": 4096,
+          "rt": 10424,
+          "sec": 37.127817153930664
+        },
+        {
+          "truth": 5502,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5085,
+          "out_tok": 4096,
+          "rt": 9742,
+          "sec": 42.91778874397278
+        },
+        {
+          "truth": 5491,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5040,
+          "out_tok": 4096,
+          "rt": 10939,
+          "sec": 37.52553081512451
+        },
+        {
+          "truth": 5537,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5045,
+          "out_tok": 4096,
+          "rt": 10414,
+          "sec": 39.34086728096008
+        },
+        {
+          "truth": 5388,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5100,
+          "out_tok": 4096,
+          "rt": 11710,
+          "sec": 35.51312470436096
+        },
+        {
+          "truth": 5537,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5045,
+          "out_tok": 4096,
+          "rt": 10301,
+          "sec": 33.78200078010559
+        },
+        {
+          "truth": 5472,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5088,
+          "out_tok": 4096,
+          "rt": 12279,
+          "sec": 40.823805809020996
+        },
+        {
+          "truth": 5444,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5089,
+          "out_tok": 4096,
+          "rt": 10291,
+          "sec": 37.83414578437805
+        },
+        {
+          "truth": 5377,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5104,
+          "out_tok": 4096,
+          "rt": 10649,
+          "sec": 39.20168900489807
+        },
+        {
+          "truth": 5492,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5057,
+          "out_tok": 4096,
+          "rt": 10494,
+          "sec": 34.75483274459839
+        }
+      ]
+    },
+    "region_ct_n16": {
+      "n": 16,
+      "kind": "region_ct",
+      "docs": 20,
+      "answer_rate": 1.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 1.0,
+      "mae": 0.0,
+      "mean_truth": 9.25,
+      "null_mae": 4.725,
+      "null_exact": 0.05,
+      "in_tok": 448.4,
+      "out_tok": 130.2,
+      "sec": 2.487025737762451,
+      "records": [
+        {
+          "truth": 14,
+          "pred": 14.0,
+          "hedged": false,
+          "raw": "14",
+          "in_tok": 437,
+          "out_tok": 107,
+          "rt": 397,
+          "sec": 2.273408889770508
+        },
+        {
+          "truth": 9,
+          "pred": 9.0,
+          "hedged": false,
+          "raw": "9",
+          "in_tok": 435,
+          "out_tok": 278,
+          "rt": 902,
+          "sec": 3.6944549083709717
+        },
+        {
+          "truth": 1,
+          "pred": 1.0,
+          "hedged": false,
+          "raw": "1",
+          "in_tok": 443,
+          "out_tok": 97,
+          "rt": 334,
+          "sec": 2.225304126739502
+        },
+        {
+          "truth": 15,
+          "pred": 15.0,
+          "hedged": false,
+          "raw": "15",
+          "in_tok": 432,
+          "out_tok": 106,
+          "rt": 422,
+          "sec": 2.1248557567596436
+        },
+        {
+          "truth": 12,
+          "pred": 12.0,
+          "hedged": false,
+          "raw": "12",
+          "in_tok": 457,
+          "out_tok": 127,
+          "rt": 383,
+          "sec": 2.275751829147339
+        },
+        {
+          "truth": 12,
+          "pred": 12.0,
+          "hedged": false,
+          "raw": "12",
+          "in_tok": 472,
+          "out_tok": 183,
+          "rt": 484,
+          "sec": 2.6390421390533447
+        },
+        {
+          "truth": 13,
+          "pred": 13.0,
+          "hedged": false,
+          "raw": "13",
+          "in_tok": 438,
+          "out_tok": 90,
+          "rt": 326,
+          "sec": 1.9732701778411865
+        },
+        {
+          "truth": 1,
+          "pred": 1.0,
+          "hedged": false,
+          "raw": "1",
+          "in_tok": 450,
+          "out_tok": 86,
+          "rt": 335,
+          "sec": 2.123007297515869
+        },
+        {
+          "truth": 13,
+          "pred": 13.0,
+          "hedged": false,
+          "raw": "13",
+          "in_tok": 448,
+          "out_tok": 104,
+          "rt": 357,
+          "sec": 2.316025972366333
+        },
+        {
+          "truth": 15,
+          "pred": 15.0,
+          "hedged": false,
+          "raw": "15",
+          "in_tok": 457,
+          "out_tok": 101,
+          "rt": 398,
+          "sec": 2.2726759910583496
+        },
+        {
+          "truth": 1,
+          "pred": 1.0,
+          "hedged": false,
+          "raw": "1",
+          "in_tok": 442,
+          "out_tok": 55,
+          "rt": 205,
+          "sec": 1.9931859970092773
+        },
+        {
+          "truth": 8,
+          "pred": 8.0,
+          "hedged": false,
+          "raw": "8",
+          "in_tok": 467,
+          "out_tok": 210,
+          "rt": 653,
+          "sec": 3.2123560905456543
+        },
+        {
+          "truth": 5,
+          "pred": 5.0,
+          "hedged": false,
+          "raw": "5",
+          "in_tok": 464,
+          "out_tok": 99,
+          "rt": 290,
+          "sec": 1.9737498760223389
+        },
+        {
+          "truth": 12,
+          "pred": 12.0,
+          "hedged": false,
+          "raw": "12",
+          "in_tok": 457,
+          "out_tok": 202,
+          "rt": 538,
+          "sec": 3.004364013671875
+        },
+        {
+          "truth": 5,
+          "pred": 5.0,
+          "hedged": false,
+          "raw": "5",
+          "in_tok": 444,
+          "out_tok": 103,
+          "rt": 291,
+          "sec": 2.1205999851226807
+        },
+        {
+          "truth": 15,
+          "pred": 15.0,
+          "hedged": false,
+          "raw": "15",
+          "in_tok": 476,
+          "out_tok": 108,
+          "rt": 428,
+          "sec": 3.166123867034912
+        },
+        {
+          "truth": 14,
+          "pred": 14.0,
+          "hedged": false,
+          "raw": "14",
+          "in_tok": 435,
+          "out_tok": 193,
+          "rt": 561,
+          "sec": 2.79193115234375
+        },
+        {
+          "truth": 14,
+          "pred": 14.0,
+          "hedged": false,
+          "raw": "14",
+          "in_tok": 437,
+          "out_tok": 162,
+          "rt": 462,
+          "sec": 2.7487759590148926
+        },
+        {
+          "truth": 3,
+          "pred": 3.0,
+          "hedged": false,
+          "raw": "3",
+          "in_tok": 439,
+          "out_tok": 99,
+          "rt": 299,
+          "sec": 2.633384943008423
+        },
+        {
+          "truth": 3,
+          "pred": 3.0,
+          "hedged": false,
+          "raw": "3",
+          "in_tok": 438,
+          "out_tok": 94,
+          "rt": 323,
+          "sec": 2.178245782852173
+        }
+      ]
+    },
+    "region_ct_n32": {
+      "n": 32,
+      "kind": "region_ct",
+      "docs": 20,
+      "answer_rate": 1.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 1.0,
+      "mae": 0.0,
+      "mean_truth": 19.1,
+      "null_mae": 7.99,
+      "null_exact": 0.05,
+      "in_tok": 753.65,
+      "out_tok": 261.85,
+      "sec": 3.690834093093872,
+      "records": [
+        {
+          "truth": 12,
+          "pred": 12.0,
+          "hedged": false,
+          "raw": "12",
+          "in_tok": 774,
+          "out_tok": 162,
+          "rt": 454,
+          "sec": 3.2675530910491943
+        },
+        {
+          "truth": 26,
+          "pred": 26.0,
+          "hedged": false,
+          "raw": "26",
+          "in_tok": 759,
+          "out_tok": 293,
+          "rt": 908,
+          "sec": 4.129533052444458
+        },
+        {
+          "truth": 9,
+          "pred": 9.0,
+          "hedged": false,
+          "raw": "9",
+          "in_tok": 746,
+          "out_tok": 733,
+          "rt": 2141,
+          "sec": 7.343690872192383
+        },
+        {
+          "truth": 31,
+          "pred": 31.0,
+          "hedged": false,
+          "raw": "31",
+          "in_tok": 784,
+          "out_tok": 196,
+          "rt": 756,
+          "sec": 3.404567003250122
+        },
+        {
+          "truth": 1,
+          "pred": 1.0,
+          "hedged": false,
+          "raw": "1",
+          "in_tok": 718,
+          "out_tok": 156,
+          "rt": 535,
+          "sec": 2.986415147781372
+        },
+        {
+          "truth": 27,
+          "pred": 27.0,
+          "hedged": false,
+          "raw": "27",
+          "in_tok": 770,
+          "out_tok": 183,
+          "rt": 634,
+          "sec": 2.858780860900879
+        },
+        {
+          "truth": 11,
+          "pred": 11.0,
+          "hedged": false,
+          "raw": "11",
+          "in_tok": 734,
+          "out_tok": 239,
+          "rt": 762,
+          "sec": 3.828613042831421
+        },
+        {
+          "truth": 31,
+          "pred": 31.0,
+          "hedged": false,
+          "raw": "31",
+          "in_tok": 784,
+          "out_tok": 290,
+          "rt": 1155,
+          "sec": 4.556483745574951
+        },
+        {
+          "truth": 24,
+          "pred": 24.0,
+          "hedged": false,
+          "raw": "24",
+          "in_tok": 738,
+          "out_tok": 293,
+          "rt": 774,
+          "sec": 3.841707944869995
+        },
+        {
+          "truth": 15,
+          "pred": 15.0,
+          "hedged": false,
+          "raw": "15",
+          "in_tok": 754,
+          "out_tok": 267,
+          "rt": 697,
+          "sec": 3.6171488761901855
+        },
+        {
+          "truth": 29,
+          "pred": 29.0,
+          "hedged": false,
+          "raw": "29",
+          "in_tok": 726,
+          "out_tok": 167,
+          "rt": 622,
+          "sec": 2.5143208503723145
+        },
+        {
+          "truth": 20,
+          "pred": 20.0,
+          "hedged": false,
+          "raw": "20",
+          "in_tok": 756,
+          "out_tok": 278,
+          "rt": 762,
+          "sec": 3.831299066543579
+        },
+        {
+          "truth": 22,
+          "pred": 22.0,
+          "hedged": false,
+          "raw": "22",
+          "in_tok": 763,
+          "out_tok": 291,
+          "rt": 790,
+          "sec": 3.4938759803771973
+        },
+        {
+          "truth": 31,
+          "pred": 31.0,
+          "hedged": false,
+          "raw": "31",
+          "in_tok": 782,
+          "out_tok": 170,
+          "rt": 655,
+          "sec": 3.000518798828125
+        },
+        {
+          "truth": 17,
+          "pred": 17.0,
+          "hedged": false,
+          "raw": "17",
+          "in_tok": 735,
+          "out_tok": 248,
+          "rt": 655,
+          "sec": 3.6146130561828613
+        },
+        {
+          "truth": 20,
+          "pred": 20.0,
+          "hedged": false,
+          "raw": "20",
+          "in_tok": 768,
+          "out_tok": 304,
+          "rt": 817,
+          "sec": 3.7534708976745605
+        },
+        {
+          "truth": 1,
+          "pred": 1.0,
+          "hedged": false,
+          "raw": "1",
+          "in_tok": 730,
+          "out_tok": 142,
+          "rt": 472,
+          "sec": 2.455697774887085
+        },
+        {
+          "truth": 19,
+          "pred": 19.0,
+          "hedged": false,
+          "raw": "19",
+          "in_tok": 773,
+          "out_tok": 418,
+          "rt": 1146,
+          "sec": 5.148009300231934
+        },
+        {
+          "truth": 29,
+          "pred": 29.0,
+          "hedged": false,
+          "raw": "29",
+          "in_tok": 753,
+          "out_tok": 229,
+          "rt": 860,
+          "sec": 3.7570931911468506
+        },
+        {
+          "truth": 7,
+          "pred": 7.0,
+          "hedged": false,
+          "raw": "7",
+          "in_tok": 726,
+          "out_tok": 178,
+          "rt": 604,
+          "sec": 2.4132893085479736
+        }
+      ]
+    },
+    "region_ct_n64": {
+      "n": 64,
+      "kind": "region_ct",
+      "docs": 20,
+      "answer_rate": 1.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 1.0,
+      "mae": 0.0,
+      "mean_truth": 37.9,
+      "null_mae": 8.72,
+      "null_exact": 0.0,
+      "in_tok": 1362.55,
+      "out_tok": 904.9,
+      "sec": 9.501841723918915,
+      "records": [
+        {
+          "truth": 42,
+          "pred": 42.0,
+          "hedged": false,
+          "raw": "42",
+          "in_tok": 1338,
+          "out_tok": 734,
+          "rt": 2114,
+          "sec": 7.970635175704956
+        },
+        {
+          "truth": 28,
+          "pred": 28.0,
+          "hedged": false,
+          "raw": "28",
+          "in_tok": 1346,
+          "out_tok": 1337,
+          "rt": 3998,
+          "sec": 13.821670770645142
+        },
+        {
+          "truth": 22,
+          "pred": 22.0,
+          "hedged": false,
+          "raw": "22",
+          "in_tok": 1310,
+          "out_tok": 966,
+          "rt": 3183,
+          "sec": 11.263433933258057
+        },
+        {
+          "truth": 42,
+          "pred": 42.0,
+          "hedged": false,
+          "raw": "42",
+          "in_tok": 1338,
+          "out_tok": 1084,
+          "rt": 2768,
+          "sec": 11.215151071548462
+        },
+        {
+          "truth": 9,
+          "pred": 9.0,
+          "hedged": false,
+          "raw": "9",
+          "in_tok": 1305,
+          "out_tok": 892,
+          "rt": 2955,
+          "sec": 9.600964069366455
+        },
+        {
+          "truth": 47,
+          "pred": 47.0,
+          "hedged": false,
+          "raw": "47",
+          "in_tok": 1355,
+          "out_tok": 655,
+          "rt": 2199,
+          "sec": 7.099766969680786
+        },
+        {
+          "truth": 32,
+          "pred": 32.0,
+          "hedged": false,
+          "raw": "32",
+          "in_tok": 1393,
+          "out_tok": 502,
+          "rt": 1480,
+          "sec": 6.325984001159668
+        },
+        {
+          "truth": 32,
+          "pred": 32.0,
+          "hedged": false,
+          "raw": "32",
+          "in_tok": 1382,
+          "out_tok": 1310,
+          "rt": 3771,
+          "sec": 12.059015035629272
+        },
+        {
+          "truth": 43,
+          "pred": 43.0,
+          "hedged": false,
+          "raw": "43",
+          "in_tok": 1383,
+          "out_tok": 499,
+          "rt": 1311,
+          "sec": 5.564088821411133
+        },
+        {
+          "truth": 48,
+          "pred": 48.0,
+          "hedged": false,
+          "raw": "48",
+          "in_tok": 1372,
+          "out_tok": 1289,
+          "rt": 3962,
+          "sec": 12.582437992095947
+        },
+        {
+          "truth": 34,
+          "pred": 34.0,
+          "hedged": false,
+          "raw": "34",
+          "in_tok": 1393,
+          "out_tok": 614,
+          "rt": 1650,
+          "sec": 7.457067012786865
+        },
+        {
+          "truth": 26,
+          "pred": 26.0,
+          "hedged": false,
+          "raw": "26",
+          "in_tok": 1390,
+          "out_tok": 347,
+          "rt": 1003,
+          "sec": 5.016587018966675
+        },
+        {
+          "truth": 48,
+          "pred": 48.0,
+          "hedged": false,
+          "raw": "48",
+          "in_tok": 1350,
+          "out_tok": 688,
+          "rt": 1804,
+          "sec": 7.798680067062378
+        },
+        {
+          "truth": 33,
+          "pred": 33.0,
+          "hedged": false,
+          "raw": "33",
+          "in_tok": 1382,
+          "out_tok": 1191,
+          "rt": 3355,
+          "sec": 11.774914264678955
+        },
+        {
+          "truth": 48,
+          "pred": 48.0,
+          "hedged": false,
+          "raw": "48",
+          "in_tok": 1378,
+          "out_tok": 2077,
+          "rt": 5385,
+          "sec": 18.56828999519348
+        },
+        {
+          "truth": 45,
+          "pred": 45.0,
+          "hedged": false,
+          "raw": "45",
+          "in_tok": 1365,
+          "out_tok": 668,
+          "rt": 1632,
+          "sec": 6.721169948577881
+        },
+        {
+          "truth": 44,
+          "pred": 44.0,
+          "hedged": false,
+          "raw": "44",
+          "in_tok": 1385,
+          "out_tok": 790,
+          "rt": 2234,
+          "sec": 9.003384113311768
+        },
+        {
+          "truth": 47,
+          "pred": 47.0,
+          "hedged": false,
+          "raw": "47",
+          "in_tok": 1371,
+          "out_tok": 713,
+          "rt": 1853,
+          "sec": 7.863379955291748
+        },
+        {
+          "truth": 43,
+          "pred": 43.0,
+          "hedged": false,
+          "raw": "43",
+          "in_tok": 1383,
+          "out_tok": 694,
+          "rt": 2211,
+          "sec": 7.864824056625366
+        },
+        {
+          "truth": 45,
+          "pred": 45.0,
+          "hedged": false,
+          "raw": "45",
+          "in_tok": 1332,
+          "out_tok": 1048,
+          "rt": 3293,
+          "sec": 10.4653902053833
+        }
+      ]
+    },
+    "region_ct_n128": {
+      "n": 128,
+      "kind": "region_ct",
+      "docs": 20,
+      "answer_rate": 1.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 1.0,
+      "mae": 0.0,
+      "mean_truth": 72.95,
+      "null_mae": 13.16,
+      "null_exact": 0.0,
+      "in_tok": 2599.45,
+      "out_tok": 2352.75,
+      "sec": 21.97046231031418,
+      "records": [
+        {
+          "truth": 74,
+          "pred": 74.0,
+          "hedged": false,
+          "raw": "74",
+          "in_tok": 2627,
+          "out_tok": 2818,
+          "rt": 8460,
+          "sec": 26.686768054962158
+        },
+        {
+          "truth": 72,
+          "pred": 72.0,
+          "hedged": false,
+          "raw": "72",
+          "in_tok": 2624,
+          "out_tok": 1896,
+          "rt": 5537,
+          "sec": 19.663078784942627
+        },
+        {
+          "truth": 75,
+          "pred": 75.0,
+          "hedged": false,
+          "raw": "75",
+          "in_tok": 2638,
+          "out_tok": 2216,
+          "rt": 6037,
+          "sec": 21.467145919799805
+        },
+        {
+          "truth": 92,
+          "pred": 92.0,
+          "hedged": false,
+          "raw": "92",
+          "in_tok": 2591,
+          "out_tok": 1809,
+          "rt": 5413,
+          "sec": 17.218115091323853
+        },
+        {
+          "truth": 41,
+          "pred": 41.0,
+          "hedged": false,
+          "raw": "41",
+          "in_tok": 2558,
+          "out_tok": 1801,
+          "rt": 5951,
+          "sec": 16.662477016448975
+        },
+        {
+          "truth": 82,
+          "pred": 82.0,
+          "hedged": false,
+          "raw": "82",
+          "in_tok": 2578,
+          "out_tok": 1896,
+          "rt": 6095,
+          "sec": 17.02109384536743
+        },
+        {
+          "truth": 41,
+          "pred": 41.0,
+          "hedged": false,
+          "raw": "41",
+          "in_tok": 2562,
+          "out_tok": 2278,
+          "rt": 6600,
+          "sec": 22.365864753723145
+        },
+        {
+          "truth": 76,
+          "pred": 76.0,
+          "hedged": false,
+          "raw": "76",
+          "in_tok": 2608,
+          "out_tok": 2080,
+          "rt": 6484,
+          "sec": 19.049561262130737
+        },
+        {
+          "truth": 67,
+          "pred": 67.0,
+          "hedged": false,
+          "raw": "67",
+          "in_tok": 2617,
+          "out_tok": 2628,
+          "rt": 8334,
+          "sec": 23.595219373703003
+        },
+        {
+          "truth": 90,
+          "pred": 90.0,
+          "hedged": false,
+          "raw": "90",
+          "in_tok": 2575,
+          "out_tok": 3049,
+          "rt": 9008,
+          "sec": 27.631587028503418
+        },
+        {
+          "truth": 75,
+          "pred": 75.0,
+          "hedged": false,
+          "raw": "75",
+          "in_tok": 2630,
+          "out_tok": 3645,
+          "rt": 11106,
+          "sec": 33.40671515464783
+        },
+        {
+          "truth": 93,
+          "pred": 93.0,
+          "hedged": false,
+          "raw": "93",
+          "in_tok": 2604,
+          "out_tok": 3154,
+          "rt": 9083,
+          "sec": 28.032917976379395
+        },
+        {
+          "truth": 91,
+          "pred": 91.0,
+          "hedged": false,
+          "raw": "91",
+          "in_tok": 2580,
+          "out_tok": 2893,
+          "rt": 8003,
+          "sec": 26.35668110847473
+        },
+        {
+          "truth": 41,
+          "pred": 41.0,
+          "hedged": false,
+          "raw": "41",
+          "in_tok": 2558,
+          "out_tok": 2136,
+          "rt": 6955,
+          "sec": 20.065657138824463
+        },
+        {
+          "truth": 93,
+          "pred": 93.0,
+          "hedged": false,
+          "raw": "93",
+          "in_tok": 2606,
+          "out_tok": 2112,
+          "rt": 6323,
+          "sec": 20.25960397720337
+        },
+        {
+          "truth": 75,
+          "pred": 75.0,
+          "hedged": false,
+          "raw": "75",
+          "in_tok": 2633,
+          "out_tok": 2173,
+          "rt": 5114,
+          "sec": 21.343935012817383
+        },
+        {
+          "truth": 57,
+          "pred": 57.0,
+          "hedged": false,
+          "raw": "57",
+          "in_tok": 2590,
+          "out_tok": 3215,
+          "rt": 9800,
+          "sec": 29.532803058624268
+        },
+        {
+          "truth": 91,
+          "pred": 91.0,
+          "hedged": false,
+          "raw": "91",
+          "in_tok": 2587,
+          "out_tok": 1527,
+          "rt": 4232,
+          "sec": 13.872548818588257
+        },
+        {
+          "truth": 61,
+          "pred": 61.0,
+          "hedged": false,
+          "raw": "61",
+          "in_tok": 2599,
+          "out_tok": 1320,
+          "rt": 3157,
+          "sec": 12.930193901062012
+        },
+        {
+          "truth": 72,
+          "pred": 72.0,
+          "hedged": false,
+          "raw": "72",
+          "in_tok": 2624,
+          "out_tok": 2409,
+          "rt": 7748,
+          "sec": 22.247278928756714
+        }
+      ]
+    },
+    "region_ct_n256": {
+      "n": 256,
+      "kind": "region_ct",
+      "docs": 20,
+      "answer_rate": 0.25,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.25,
+      "mae": 0.0,
+      "mean_truth": 140.75,
+      "null_mae": 14.1,
+      "null_exact": 0.0,
+      "in_tok": 5014.9,
+      "out_tok": 3926.2,
+      "sec": 36.518309843540194,
+      "records": [
+        {
+          "truth": 134,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5016,
+          "out_tok": 4096,
+          "rt": 12344,
+          "sec": 40.03464412689209
+        },
+        {
+          "truth": 127,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 4989,
+          "out_tok": 4096,
+          "rt": 11980,
+          "sec": 35.35673499107361
+        },
+        {
+          "truth": 142,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5012,
+          "out_tok": 4096,
+          "rt": 12279,
+          "sec": 37.219239234924316
+        },
+        {
+          "truth": 126,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 4990,
+          "out_tok": 4096,
+          "rt": 11793,
+          "sec": 38.497925758361816
+        },
+        {
+          "truth": 164,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5053,
+          "out_tok": 4096,
+          "rt": 12560,
+          "sec": 38.142606019973755
+        },
+        {
+          "truth": 155,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5049,
+          "out_tok": 4096,
+          "rt": 12216,
+          "sec": 35.97789120674133
+        },
+        {
+          "truth": 163,
+          "pred": 163.0,
+          "hedged": false,
+          "raw": "163",
+          "in_tok": 5050,
+          "out_tok": 2911,
+          "rt": 9212,
+          "sec": 27.00509214401245
+        },
+        {
+          "truth": 130,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 4999,
+          "out_tok": 4096,
+          "rt": 12537,
+          "sec": 35.4525408744812
+        },
+        {
+          "truth": 131,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 4989,
+          "out_tok": 4096,
+          "rt": 12279,
+          "sec": 34.436875104904175
+        },
+        {
+          "truth": 121,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 4978,
+          "out_tok": 4096,
+          "rt": 13153,
+          "sec": 37.15620136260986
+        },
+        {
+          "truth": 125,
+          "pred": 125.0,
+          "hedged": false,
+          "raw": "125",
+          "in_tok": 4991,
+          "out_tok": 3064,
+          "rt": 8722,
+          "sec": 30.78109312057495
+        },
+        {
+          "truth": 127,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 4989,
+          "out_tok": 4096,
+          "rt": 12502,
+          "sec": 42.486732006073
+        },
+        {
+          "truth": 161,
+          "pred": 161.0,
+          "hedged": false,
+          "raw": "161",
+          "in_tok": 5057,
+          "out_tok": 3427,
+          "rt": 9822,
+          "sec": 32.64458894729614
+        },
+        {
+          "truth": 154,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5049,
+          "out_tok": 4096,
+          "rt": 13307,
+          "sec": 35.74282693862915
+        },
+        {
+          "truth": 131,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 4995,
+          "out_tok": 4096,
+          "rt": 13429,
+          "sec": 36.629905223846436
+        },
+        {
+          "truth": 131,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 4989,
+          "out_tok": 4096,
+          "rt": 11516,
+          "sec": 42.26869821548462
+        },
+        {
+          "truth": 131,
+          "pred": 131.0,
+          "hedged": false,
+          "raw": "131",
+          "in_tok": 4994,
+          "out_tok": 3665,
+          "rt": 11158,
+          "sec": 35.457316875457764
+        },
+        {
+          "truth": 134,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5015,
+          "out_tok": 4096,
+          "rt": 12248,
+          "sec": 39.856229066848755
+        },
+        {
+          "truth": 165,
+          "pred": 165.0,
+          "hedged": false,
+          "raw": "165",
+          "in_tok": 5044,
+          "out_tok": 4017,
+          "rt": 10112,
+          "sec": 38.067864656448364
+        },
+        {
+          "truth": 163,
+          "pred": null,
+          "hedged": false,
+          "raw": "",
+          "in_tok": 5050,
+          "out_tok": 4096,
+          "rt": 12036,
+          "sec": 37.151190996170044
+        }
+      ]
+    }
+  }
+}

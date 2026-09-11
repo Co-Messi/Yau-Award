@@ -1,0 +1,110 @@
+PAPER v5 CANONICAL NUMBER LEDGER  (every headline cell traces here; no recipe-mixing)
+===============================================================================================
+
+[T1] TOY E2 MATRIX -- each predicate its OWN head; R2 n64->n512, MAE512, exact512
+  witness:
+     inv       R2   1.00->   1.00  MAE512        0(null  29676)  exact512 1.00
+     drop5     R2   1.00->   1.00  MAE512        0(null  26789)  exact512 1.00
+     dup       R2   1.00->   1.00  MAE512        0(null  28321)  exact512 1.00
+     sum_s20   R2   1.00->   1.00  MAE512        0(null  12154)  exact512 1.00
+     count_v0  R2   1.00->   1.00  MAE512        0(null    131)  exact512 1.00
+     gt_c8     R2   1.00->   1.00  MAE512        0(null    131)  exact512 1.00
+  gtally:
+     inv       R2   1.00->   1.00  MAE512      141(null  27935)  exact512 0.00
+     drop5     R2   1.00->   1.00  MAE512       22(null  25309)  exact512 0.01
+     dup       R2   0.13->   0.16  MAE512    15568(null  29115)  exact512 0.00
+     sum_s20   R2   0.45->   0.43  MAE512     5163(null  12131)  exact512 0.00
+     count_v0  R2   1.00->   1.00  MAE512        0(null    132)  exact512 1.00
+     gt_c8     R2   0.87->   0.80  MAE512       56(null    132)  exact512 0.01
+  gtally-norm:
+     inv       R2  -2.97->  -3.81  MAE512    65603(null  27935)  exact512 0.00
+     drop5     R2  -2.83->  -3.65  MAE512    57620(null  25309)  exact512 0.00
+     dup       R2  -0.66->  -0.68  MAE512    31664(null  29115)  exact512 0.00
+     sum_s20   R2  -0.40->  -0.53  MAE512    11254(null  12131)  exact512 0.00
+     count_v0  R2  -1.06->  -2.56  MAE512      250(null    132)  exact512 0.00
+     gt_c8     R2  -0.64->  -2.47  MAE512      245(null    132)  exact512 0.00
+  softmax:
+     inv       R2   1.00->  -3.62  MAE512    64212(null  27935)  exact512 0.00
+     drop5     R2   1.00->  -3.47  MAE512    56405(null  25309)  exact512 0.00
+     dup       R2   1.00->  -0.62  MAE512    30928(null  29115)  exact512 0.00
+     sum_s20   R2   1.00->  -0.48  MAE512    11059(null  12131)  exact512 0.00
+     count_v0  R2   1.00->  -1.80  MAE512      221(null    132)  exact512 0.00
+     gt_c8     R2   1.00->  -1.78  MAE512      221(null    132)  exact512 0.00
+  fraction:
+     inv       R2   1.00->   1.00  MAE512     1945(null  27935)  exact512 0.00
+     drop5     R2   1.00->   1.00  MAE512     1482(null  25309)  exact512 0.00
+     dup       R2   1.00->   0.97  MAE512     5980(null  29115)  exact512 0.00
+     sum_s20   R2   1.00->   0.85  MAE512     3725(null  12131)  exact512 0.00
+     count_v0  R2   1.00->   1.00  MAE512       11(null    132)  exact512 0.01
+     gt_c8     R2   1.00->   1.00  MAE512        3(null    132)  exact512 0.09
+  mlp:
+     inv       R2  -1.21->  -3.76  MAE512    65195(null  27935)  exact512 0.00
+     drop5     R2  -1.15->  -3.60  MAE512    57258(null  25309)  exact512 0.00
+     dup       R2   0.16->  -0.67  MAE512    31543(null  29115)  exact512 0.00
+     sum_s20   R2   0.32->  -0.52  MAE512    11208(null  12131)  exact512 0.01
+     count_v0  R2   0.25->  -2.32  MAE512      243(null    132)  exact512 0.00
+     gt_c8     R2   0.43->  -2.20  MAE512      238(null    132)  exact512 0.01
+     dup(rank32 retrain, 2 seeds): [0.65]
+
+[T2] QWEN SOLO SCOUTS -- predicate learnable on frozen LLM (1 seed)
+  inv         n96 R2   0.96 MAE   140.9(null   918) w10 0.84 exact 0.03 corr 0.9947991967201233
+  drop5       n96 R2   0.79 MAE   163.7(null   358) w10 0.12 exact 0.01 corr 0.9588719606399536
+  dup         n96 R2   0.95 MAE   226.2(null  1087) w10 0.35 exact 0.00 corr 0.9821596741676331
+  sum_s_5     n96 R2  -1.93 MAE   716.4(null   368) w10 0.04 exact 0.00 corr 0.44904544949531555
+  count_v_3   n96 R2   1.00 MAE     0.1(null    26) w10 0.99 exact 0.98 corr 0.9999906420707703
+  gt_c_2      n96 R2   1.00 MAE     0.3(null    26) w10 1.00 exact 0.79 corr 0.9998806715011597
+
+[T3] QWEN ONE-HEAD MIXTURE (plain-joint 8k, e4_tally_s*, 5 seeds) -- median[worst], alive=R2>0.3
+  trained:
+     inv         R2  -3.29[ -4.25] w10 0.00 null   918 alive 1/5 corr 0.0
+     drop5       R2  -2.80[ -3.00] w10 0.00 null   358 alive 0/5 corr 0.0
+     dup         R2   0.78[ -1.80] w10 0.23 null  1087 alive 4/5 corr 0.98
+     sum_s_5     R2  -0.85[ -0.91] w10 0.00 null   368 alive 0/5 corr nan
+     count_v_3   R2   0.94[  0.87] w10 0.53 null    26 alive 5/5 corr 0.99
+     gt_c_2      R2   0.90[  0.45] w10 0.55 null    26 alive 5/5 corr 0.99
+  heldout:
+     sum_s_8     R2  -1.07[ -1.12] w10 0.00 null   347 alive 0/5 corr na
+     sum_s_9     R2  -1.14[ -1.19] w10 0.00 null   339 alive 0/5 corr na
+     count_v_7   R2   0.92[  0.27] w10 0.50 null    26 alive 4/5 corr na
+     count_v_8   R2   0.89[ -0.06] w10 0.42 null    26 alive 4/5 corr na
+     count_v_9   R2   0.84[  0.44] w10 0.34 null    26 alive 5/5 corr na
+     gt_c_4      R2   0.89[  0.72] w10 0.36 null    26 alive 5/5 corr na
+
+[T4] QWEN BASELINES (3 seeds) n8->n96
+  value:
+     inv         n8  -1.04 -> n96   -3.17  w10 0.00
+     drop5       n8   0.22 -> n96   -2.38  w10 0.00
+     dup         n8   0.55 -> n96   -1.74  w10 0.00
+     sum_s_5     n8   0.04 -> n96   -0.86  w10 0.00
+     count_v_3   n8   0.80 -> n96   -1.82  w10 0.01
+     gt_c_2      n8   0.57 -> n96   -2.20  w10 0.02
+  meanpool:
+     inv         n8   0.37 -> n96   -3.15  w10 0.00
+     drop5       n8   0.57 -> n96   -2.34  w10 0.00
+     dup         n8   0.38 -> n96   -1.72  w10 0.00
+     sum_s_5     n8   0.27 -> n96   -0.85  w10 0.00
+     count_v_3   n8   0.92 -> n96   -1.73  w10 0.00
+     gt_c_2      n8   0.94 -> n96   -1.78  w10 0.01
+  fracpool:
+     inv         n8   0.98 -> n96    0.80  w10 0.27
+     drop5       n8   0.87 -> n96   -0.64  w10 0.04
+     dup         n8   0.98 -> n96    0.95  w10 0.42
+     sum_s_5     n8   0.42 -> n96   -0.91  w10 0.02
+     count_v_3   n8   0.98 -> n96    0.88  w10 0.10
+     gt_c_2      n8   0.93 -> n96    0.83  w10 0.08
+
+[T5] WARM-START recipes (pairwise recovery, cost to unary) -- for the boundary paragraph
+  warm6k (3 seeds):
+     inv         R2 med   0.85 alive 2/3
+     drop5       R2 med  -2.46 alive 1/3
+     dup         R2 med   0.72 alive 2/3
+     sum_s_5     R2 med  -0.90 alive 0/3
+     count_v_3   R2 med   0.74 alive 2/3
+     gt_c_2      R2 med   0.58 alive 2/3
+  warm8k (5 seeds):
+     inv         R2 med  -0.57 alive 2/5
+     drop5       R2 med  -2.46 alive 1/5
+     dup         R2 med  -0.06 alive 2/5
+     sum_s_5     R2 med  -0.84 alive 0/5
+     count_v_3   R2 med   0.86 alive 4/5
+     gt_c_2      R2 med   0.92 alive 3/5

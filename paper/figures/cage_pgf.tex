@@ -1,0 +1,36 @@
+% Drawn for this paper. Left: the convex hull of three value vectors, with the
+% head output confined to it. Right: the scaling forms of the three
+% aggregators, plotted from their formulas, not from any measurement.
+\begin{tikzpicture}
+\begin{scope}[scale=0.85]
+  \coordinate (O) at (0,0);
+  \coordinate (V1) at (-2.0,0.35);
+  \coordinate (V2) at (1.9,1.35);
+  \coordinate (V3) at (0.55,-1.5);
+  \fill[black!8] (V1) -- (V2) -- (V3) -- cycle;
+  \draw[black!30] (-2.5,0) -- (2.5,0);
+  \draw[black!30] (0,-1.9) -- (0,1.8);
+  \foreach \v/\lab/\pos in {V1/{v^{1}}/{above left}, V2/{v^{2}}/{above right},
+                            V3/{v^{3}}/{below right}}
+    \draw[-latex,line width=0.9pt] (O) -- (\v) node[\pos,font=\footnotesize] {$\lab$};
+  \fill (0.05,0.12) circle (1.6pt) node[right,font=\footnotesize,xshift=1pt] {$o_i$};
+  \node[font=\small] at (0,-2.35) {any head output lands in here};
+\end{scope}
+\begin{scope}[xshift=7.3cm,yshift=-2.7cm]
+\begin{axis}[
+  width=7.0cm, height=5.0cm,
+  xmode=log, ymode=log, log basis x=10,
+  domain=1:2000, samples=60,
+  xmin=1, xmax=2000, ymin=0.015, ymax=70,
+  xlabel={number of items $n$}, ylabel={size of the output},
+  tick label style={font=\footnotesize}, label style={font=\footnotesize},
+  axis line style={black!55},
+  legend style={font=\footnotesize,draw=none,at={(0.02,0.98)},anchor=north west},
+  legend cell align=left,
+]
+\addplot[black,line width=1.1pt] {sqrt(x)};       \addlegendentry{sum}
+\addplot[black!55,dashed,line width=1.0pt] {1};   \addlegendentry{normalized}
+\addplot[black,dotted,line width=1.1pt] {1/sqrt(x)}; \addlegendentry{average}
+\end{axis}
+\end{scope}
+\end{tikzpicture}

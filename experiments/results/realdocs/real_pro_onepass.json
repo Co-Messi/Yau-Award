@@ -1,0 +1,3262 @@
+{
+  "model": "pro",
+  "arm": "onepass",
+  "source": "MASTER_INDEX.tsv",
+  "cells": {
+    "year_inv_n16": {
+      "n": 16,
+      "kind": "year_inv",
+      "docs": 20,
+      "answer_rate": 1.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.4,
+      "mae": 52.45,
+      "mean_truth": 16.55,
+      "null_mae": 14.65,
+      "null_exact": 0.0,
+      "in_tok": 420.95,
+      "out_tok": 1.0,
+      "sec": 1.2441940188407898,
+      "records": [
+        {
+          "truth": 11,
+          "pred": 120.0,
+          "hedged": false,
+          "raw": "120",
+          "in_tok": 407,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 2.952491044998169
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 426,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3316898345947266
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 426,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.170011043548584
+        },
+        {
+          "truth": 28,
+          "pred": 120.0,
+          "hedged": false,
+          "raw": "120",
+          "in_tok": 428,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0365359783172607
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 423,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.459562063217163
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 436,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.6390609741210938
+        },
+        {
+          "truth": 47,
+          "pred": 120.0,
+          "hedged": false,
+          "raw": "120",
+          "in_tok": 390,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.5064458847045898
+        },
+        {
+          "truth": 39,
+          "pred": 120.0,
+          "hedged": false,
+          "raw": "120",
+          "in_tok": 438,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.6814520359039307
+        },
+        {
+          "truth": 30,
+          "pred": 120.0,
+          "hedged": false,
+          "raw": "120",
+          "in_tok": 413,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0175771713256836
+        },
+        {
+          "truth": 18,
+          "pred": 120.0,
+          "hedged": false,
+          "raw": "120",
+          "in_tok": 419,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0854039192199707
+        },
+        {
+          "truth": 8,
+          "pred": 120.0,
+          "hedged": false,
+          "raw": "120",
+          "in_tok": 402,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0782411098480225
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 408,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.948871374130249
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 416,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.266505241394043
+        },
+        {
+          "truth": 30,
+          "pred": 120.0,
+          "hedged": false,
+          "raw": "120",
+          "in_tok": 414,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0066888332366943
+        },
+        {
+          "truth": 35,
+          "pred": 120.0,
+          "hedged": false,
+          "raw": "120",
+          "in_tok": 437,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.9961578845977783
+        },
+        {
+          "truth": 28,
+          "pred": 60.0,
+          "hedged": false,
+          "raw": "60",
+          "in_tok": 424,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0478498935699463
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 419,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.9621319770812988
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 441,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0283253192901611
+        },
+        {
+          "truth": 25,
+          "pred": 120.0,
+          "hedged": false,
+          "raw": "120",
+          "in_tok": 420,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1238679885864258
+        },
+        {
+          "truth": 32,
+          "pred": 120.0,
+          "hedged": false,
+          "raw": "120",
+          "in_tok": 432,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.5450108051300049
+        }
+      ]
+    },
+    "year_inv_n32": {
+      "n": 32,
+      "kind": "year_inv",
+      "docs": 20,
+      "answer_rate": 0.95,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.2,
+      "mae": 72.52631578947368,
+      "mean_truth": 113.85,
+      "null_mae": 57.964999999999996,
+      "null_exact": 0.0,
+      "in_tok": 721.3,
+      "out_tok": 1.75,
+      "sec": 1.2445517539978028,
+      "records": [
+        {
+          "truth": 156,
+          "pred": 48.0,
+          "hedged": false,
+          "raw": "48",
+          "in_tok": 679,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.151350975036621
+        },
+        {
+          "truth": 125,
+          "pred": 288.0,
+          "hedged": false,
+          "raw": "288",
+          "in_tok": 710,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.075998067855835
+        },
+        {
+          "truth": 157,
+          "pred": 288.0,
+          "hedged": false,
+          "raw": "288",
+          "in_tok": 686,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.5337121486663818
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 704,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.076305866241455
+        },
+        {
+          "truth": 63,
+          "pred": 48.0,
+          "hedged": false,
+          "raw": "48",
+          "in_tok": 715,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3826160430908203
+        },
+        {
+          "truth": 57,
+          "pred": 48.0,
+          "hedged": false,
+          "raw": "48",
+          "in_tok": 731,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.046462059020996
+        },
+        {
+          "truth": 103,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s go through the table and count the number of pairs where an earlier",
+          "in_tok": 732,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 0.9952201843261719
+        },
+        {
+          "truth": 111,
+          "pred": 48.0,
+          "hedged": false,
+          "raw": "48",
+          "in_tok": 742,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0342390537261963
+        },
+        {
+          "truth": 111,
+          "pred": 48.0,
+          "hedged": false,
+          "raw": "48",
+          "in_tok": 730,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.028559923171997
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 712,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0602948665618896
+        },
+        {
+          "truth": 185,
+          "pred": 288.0,
+          "hedged": false,
+          "raw": "288",
+          "in_tok": 740,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.708421230316162
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 750,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.4449107646942139
+        },
+        {
+          "truth": 210,
+          "pred": 96.0,
+          "hedged": false,
+          "raw": "96",
+          "in_tok": 756,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.4103198051452637
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 702,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.4667620658874512
+        },
+        {
+          "truth": 152,
+          "pred": 48.0,
+          "hedged": false,
+          "raw": "48",
+          "in_tok": 691,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.19399094581604
+        },
+        {
+          "truth": 146,
+          "pred": 48.0,
+          "hedged": false,
+          "raw": "48",
+          "in_tok": 725,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0512800216674805
+        },
+        {
+          "truth": 195,
+          "pred": 288.0,
+          "hedged": false,
+          "raw": "288",
+          "in_tok": 754,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.199965238571167
+        },
+        {
+          "truth": 196,
+          "pred": 48.0,
+          "hedged": false,
+          "raw": "48",
+          "in_tok": 726,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2372901439666748
+        },
+        {
+          "truth": 174,
+          "pred": 96.0,
+          "hedged": false,
+          "raw": "96",
+          "in_tok": 693,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.6357707977294922
+        },
+        {
+          "truth": 136,
+          "pred": 48.0,
+          "hedged": false,
+          "raw": "48",
+          "in_tok": 748,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1575648784637451
+        }
+      ]
+    },
+    "year_inv_n64": {
+      "n": 64,
+      "kind": "year_inv",
+      "docs": 20,
+      "answer_rate": 1.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.05,
+      "mae": 637.9,
+      "mean_truth": 587.95,
+      "null_mae": 211.95,
+      "null_exact": 0.0,
+      "in_tok": 1351.2,
+      "out_tok": 1.25,
+      "sec": 1.275300645828247,
+      "records": [
+        {
+          "truth": 242,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 1349,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1969518661499023
+        },
+        {
+          "truth": 633,
+          "pred": 201.0,
+          "hedged": false,
+          "raw": "201",
+          "in_tok": 1363,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1928961277008057
+        },
+        {
+          "truth": 826,
+          "pred": 2016.0,
+          "hedged": false,
+          "raw": "2016",
+          "in_tok": 1364,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 0.7457919120788574
+        },
+        {
+          "truth": 451,
+          "pred": 201.0,
+          "hedged": false,
+          "raw": "201",
+          "in_tok": 1362,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2235279083251953
+        },
+        {
+          "truth": 819,
+          "pred": 201.0,
+          "hedged": false,
+          "raw": "201",
+          "in_tok": 1347,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2359647750854492
+        },
+        {
+          "truth": 455,
+          "pred": 2016.0,
+          "hedged": false,
+          "raw": "2016",
+          "in_tok": 1368,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 1.250180959701538
+        },
+        {
+          "truth": 894,
+          "pred": 201.0,
+          "hedged": false,
+          "raw": "201",
+          "in_tok": 1368,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.6510190963745117
+        },
+        {
+          "truth": 358,
+          "pred": 201.0,
+          "hedged": false,
+          "raw": "201",
+          "in_tok": 1349,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1321167945861816
+        },
+        {
+          "truth": 530,
+          "pred": 201.0,
+          "hedged": false,
+          "raw": "201",
+          "in_tok": 1330,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1361379623413086
+        },
+        {
+          "truth": 656,
+          "pred": 2016.0,
+          "hedged": false,
+          "raw": "2016",
+          "in_tok": 1360,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 1.0716407299041748
+        },
+        {
+          "truth": 516,
+          "pred": 2016.0,
+          "hedged": false,
+          "raw": "2016",
+          "in_tok": 1329,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 1.24135422706604
+        },
+        {
+          "truth": 169,
+          "pred": 201.0,
+          "hedged": false,
+          "raw": "201",
+          "in_tok": 1306,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.912869930267334
+        },
+        {
+          "truth": 523,
+          "pred": 201.0,
+          "hedged": false,
+          "raw": "201",
+          "in_tok": 1363,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.9039816856384277
+        },
+        {
+          "truth": 813,
+          "pred": 2016.0,
+          "hedged": false,
+          "raw": "2016",
+          "in_tok": 1352,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 1.488095998764038
+        },
+        {
+          "truth": 516,
+          "pred": 201.0,
+          "hedged": false,
+          "raw": "201",
+          "in_tok": 1361,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.441847801208496
+        },
+        {
+          "truth": 852,
+          "pred": 201.0,
+          "hedged": false,
+          "raw": "201",
+          "in_tok": 1358,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0226409435272217
+        },
+        {
+          "truth": 796,
+          "pred": 201.0,
+          "hedged": false,
+          "raw": "201",
+          "in_tok": 1327,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.5096001625061035
+        },
+        {
+          "truth": 749,
+          "pred": 201.0,
+          "hedged": false,
+          "raw": "201",
+          "in_tok": 1358,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3420050144195557
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 1349,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.7606542110443115
+        },
+        {
+          "truth": 961,
+          "pred": 201.0,
+          "hedged": false,
+          "raw": "201",
+          "in_tok": 1361,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0467348098754883
+        }
+      ]
+    },
+    "year_inv_n128": {
+      "n": 128,
+      "kind": "year_inv",
+      "docs": 20,
+      "answer_rate": 1.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.0,
+      "mae": 2100.7,
+      "mean_truth": 2831.5,
+      "null_mae": 380.8,
+      "null_exact": 0.0,
+      "in_tok": 2561.9,
+      "out_tok": 1.0,
+      "sec": 1.200982105731964,
+      "records": [
+        {
+          "truth": 2288,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2595,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1152048110961914
+        },
+        {
+          "truth": 3261,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2524,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.392915964126587
+        },
+        {
+          "truth": 2724,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 2567,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2534229755401611
+        },
+        {
+          "truth": 2850,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2591,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.7603907585144043
+        },
+        {
+          "truth": 2239,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2549,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2902107238769531
+        },
+        {
+          "truth": 2819,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2597,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.6311750411987305
+        },
+        {
+          "truth": 2389,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2547,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.9916689395904541
+        },
+        {
+          "truth": 2943,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2551,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0271320343017578
+        },
+        {
+          "truth": 3109,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2564,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.000425100326538
+        },
+        {
+          "truth": 1964,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2548,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.4389817714691162
+        },
+        {
+          "truth": 3261,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2564,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2257130146026611
+        },
+        {
+          "truth": 2955,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2590,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3022971153259277
+        },
+        {
+          "truth": 2744,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 2558,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.8053328990936279
+        },
+        {
+          "truth": 2347,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2575,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.031562089920044
+        },
+        {
+          "truth": 2714,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2546,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3752408027648926
+        },
+        {
+          "truth": 2923,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2585,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.5070230960845947
+        },
+        {
+          "truth": 3741,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2564,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3342840671539307
+        },
+        {
+          "truth": 3638,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2527,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.936866044998169
+        },
+        {
+          "truth": 3442,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2561,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1643998622894287
+        },
+        {
+          "truth": 2279,
+          "pred": 812.0,
+          "hedged": false,
+          "raw": "812",
+          "in_tok": 2535,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.4353950023651123
+        }
+      ]
+    },
+    "year_inv_n256": {
+      "n": 256,
+      "kind": "year_inv",
+      "docs": 20,
+      "answer_rate": 1.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.0,
+      "mae": 10261.55,
+      "mean_truth": 12532.1,
+      "null_mae": 594.61,
+      "null_exact": 0.0,
+      "in_tok": 4989.2,
+      "out_tok": 1.7,
+      "sec": 1.2313462018966674,
+      "records": [
+        {
+          "truth": 12594,
+          "pred": 3264.0,
+          "hedged": false,
+          "raw": "3264",
+          "in_tok": 5021,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 1.277444839477539
+        },
+        {
+          "truth": 11450,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 4988,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.7763581275939941
+        },
+        {
+          "truth": 14169,
+          "pred": 3264.0,
+          "hedged": false,
+          "raw": "3264",
+          "in_tok": 4961,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 2.0060627460479736
+        },
+        {
+          "truth": 13618,
+          "pred": 3264.0,
+          "hedged": false,
+          "raw": "3264",
+          "in_tok": 4986,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 0.9136519432067871
+        },
+        {
+          "truth": 12290,
+          "pred": 3267.0,
+          "hedged": false,
+          "raw": "3267",
+          "in_tok": 4986,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 0.8844401836395264
+        },
+        {
+          "truth": 11744,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 4961,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1338770389556885
+        },
+        {
+          "truth": 13527,
+          "pred": 3264.0,
+          "hedged": false,
+          "raw": "3264",
+          "in_tok": 4988,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 1.2688219547271729
+        },
+        {
+          "truth": 12941,
+          "pred": 3264.0,
+          "hedged": false,
+          "raw": "3264",
+          "in_tok": 4988,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 1.2855780124664307
+        },
+        {
+          "truth": 12676,
+          "pred": 3276.0,
+          "hedged": false,
+          "raw": "3276",
+          "in_tok": 5008,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 0.9839940071105957
+        },
+        {
+          "truth": 12981,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 5020,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3879990577697754
+        },
+        {
+          "truth": 12117,
+          "pred": 3264.0,
+          "hedged": false,
+          "raw": "3264",
+          "in_tok": 5023,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 1.1517832279205322
+        },
+        {
+          "truth": 11939,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 5004,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0342967510223389
+        },
+        {
+          "truth": 11683,
+          "pred": 3264.0,
+          "hedged": false,
+          "raw": "3264",
+          "in_tok": 5024,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 1.1969332695007324
+        },
+        {
+          "truth": 12467,
+          "pred": 3264.0,
+          "hedged": false,
+          "raw": "3264",
+          "in_tok": 4978,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 1.3304178714752197
+        },
+        {
+          "truth": 12922,
+          "pred": 3264.0,
+          "hedged": false,
+          "raw": "3264",
+          "in_tok": 4949,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 1.2426869869232178
+        },
+        {
+          "truth": 12516,
+          "pred": 3264.0,
+          "hedged": false,
+          "raw": "3264",
+          "in_tok": 4970,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 1.7471342086791992
+        },
+        {
+          "truth": 13307,
+          "pred": 2964.0,
+          "hedged": false,
+          "raw": "2964",
+          "in_tok": 4976,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 0.9222180843353271
+        },
+        {
+          "truth": 12265,
+          "pred": 3264.0,
+          "hedged": false,
+          "raw": "3264",
+          "in_tok": 4981,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 1.338892936706543
+        },
+        {
+          "truth": 11567,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 4984,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.7511019706726074
+        },
+        {
+          "truth": 11869,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 4988,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.9932308197021484
+        }
+      ]
+    },
+    "subj_dup_n16": {
+      "n": 16,
+      "kind": "subj_dup",
+      "docs": 20,
+      "answer_rate": 0.75,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.05,
+      "mae": 28.333333333333332,
+      "mean_truth": 35.05,
+      "null_mae": 12.55,
+      "null_exact": 0.0,
+      "in_tok": 415.1,
+      "out_tok": 10.75,
+      "sec": 1.2594829201698303,
+      "records": [
+        {
+          "truth": 46,
+          "pred": 1.0,
+          "hedged": false,
+          "raw": "Let\u2019s count by subject:\n\n- **chemistry**: 1 row \u2192",
+          "in_tok": 408,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.0858538150787354
+        },
+        {
+          "truth": 43,
+          "pred": 16.0,
+          "hedged": false,
+          "raw": "16",
+          "in_tok": 413,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0385310649871826
+        },
+        {
+          "truth": 19,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- biology: rows",
+          "in_tok": 417,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.2917823791503906
+        },
+        {
+          "truth": 25,
+          "pred": 1.0,
+          "hedged": false,
+          "raw": "Let\u2019s count by subject:\n\n- **cs**: rows 1,",
+          "in_tok": 405,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.7926011085510254
+        },
+        {
+          "truth": 17,
+          "pred": 8.0,
+          "hedged": false,
+          "raw": "8",
+          "in_tok": 413,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1262450218200684
+        },
+        {
+          "truth": 16,
+          "pred": 16.0,
+          "hedged": false,
+          "raw": "16",
+          "in_tok": 406,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.9989669322967529
+        },
+        {
+          "truth": 39,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- physics: rows",
+          "in_tok": 405,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.2937979698181152
+        },
+        {
+          "truth": 28,
+          "pred": 16.0,
+          "hedged": false,
+          "raw": "16",
+          "in_tok": 427,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1514198780059814
+        },
+        {
+          "truth": 57,
+          "pred": 1.0,
+          "hedged": false,
+          "raw": "Let\u2019s count by subject:\n\n- **biology**: rows 1,",
+          "in_tok": 418,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.127816915512085
+        },
+        {
+          "truth": 47,
+          "pred": 1.0,
+          "hedged": false,
+          "raw": "Let\u2019s count by subject:\n\n- **math**: rows 1,",
+          "in_tok": 413,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.522002935409546
+        },
+        {
+          "truth": 60,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- **biology**: rows",
+          "in_tok": 427,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.5833311080932617
+        },
+        {
+          "truth": 37,
+          "pred": 16.0,
+          "hedged": false,
+          "raw": "16",
+          "in_tok": 437,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0233616828918457
+        },
+        {
+          "truth": 32,
+          "pred": 1.0,
+          "hedged": false,
+          "raw": "Let\u2019s count by subject:\n\n- **math**: rows 1,",
+          "in_tok": 410,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.1000618934631348
+        },
+        {
+          "truth": 21,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- **physics**: rows",
+          "in_tok": 421,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 0.9826288223266602
+        },
+        {
+          "truth": 45,
+          "pred": 1.0,
+          "hedged": false,
+          "raw": "Let\u2019s count by subject:\n\n- **biology**: rows 1,",
+          "in_tok": 402,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.4536690711975098
+        },
+        {
+          "truth": 21,
+          "pred": 16.0,
+          "hedged": false,
+          "raw": "16",
+          "in_tok": 409,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1760358810424805
+        },
+        {
+          "truth": 43,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- cs: rows",
+          "in_tok": 413,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.5648469924926758
+        },
+        {
+          "truth": 20,
+          "pred": 1.0,
+          "hedged": false,
+          "raw": "Let\u2019s count by subject:\n\n- **cs**: rows 1,",
+          "in_tok": 398,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.571997880935669
+        },
+        {
+          "truth": 59,
+          "pred": 120.0,
+          "hedged": false,
+          "raw": "120",
+          "in_tok": 429,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0594851970672607
+        },
+        {
+          "truth": 26,
+          "pred": 1.0,
+          "hedged": false,
+          "raw": "Let\u2019s count by subject:\n\n- **econ**: rows 1,",
+          "in_tok": 431,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.2452218532562256
+        }
+      ]
+    },
+    "subj_dup_n32": {
+      "n": 32,
+      "kind": "subj_dup",
+      "docs": 20,
+      "answer_rate": 0.15,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.0,
+      "mae": 99.33333333333333,
+      "mean_truth": 100.35,
+      "null_mae": 12.485,
+      "null_exact": 0.05,
+      "in_tok": 713.2,
+      "out_tok": 16.0,
+      "sec": 1.3933795928955077,
+      "records": [
+        {
+          "truth": 91,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- **cs**: rows",
+          "in_tok": 680,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.3625340461730957
+        },
+        {
+          "truth": 93,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- **math**: rows",
+          "in_tok": 719,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.3177778720855713
+        },
+        {
+          "truth": 100,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- **cs**: rows",
+          "in_tok": 711,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.1736581325531006
+        },
+        {
+          "truth": 146,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- **physics**: rows",
+          "in_tok": 725,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.4583420753479004
+        },
+        {
+          "truth": 89,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- physics: rows",
+          "in_tok": 691,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.3258380889892578
+        },
+        {
+          "truth": 104,
+          "pred": 3.0,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- physics: 3",
+          "in_tok": 696,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.337548017501831
+        },
+        {
+          "truth": 84,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- physics: rows",
+          "in_tok": 757,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.3004601001739502
+        },
+        {
+          "truth": 107,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- **math**: rows",
+          "in_tok": 703,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.5936181545257568
+        },
+        {
+          "truth": 104,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- physics: rows",
+          "in_tok": 710,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.8997340202331543
+        },
+        {
+          "truth": 126,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- biology: rows",
+          "in_tok": 743,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.4088587760925293
+        },
+        {
+          "truth": 91,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- physics: rows",
+          "in_tok": 700,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.1824061870574951
+        },
+        {
+          "truth": 88,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- math: rows",
+          "in_tok": 693,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.2067739963531494
+        },
+        {
+          "truth": 112,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- biology: rows",
+          "in_tok": 699,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.5730860233306885
+        },
+        {
+          "truth": 88,
+          "pred": 1.0,
+          "hedged": false,
+          "raw": "Let\u2019s count by subject:\n\n- **math**: rows 1,",
+          "in_tok": 738,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.395380973815918
+        },
+        {
+          "truth": 75,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- biology: rows",
+          "in_tok": 748,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.501521110534668
+        },
+        {
+          "truth": 89,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- math: rows",
+          "in_tok": 727,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.3716847896575928
+        },
+        {
+          "truth": 114,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- **chemistry**: rows",
+          "in_tok": 708,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.2866790294647217
+        },
+        {
+          "truth": 103,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- cs: rows",
+          "in_tok": 698,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.553645133972168
+        },
+        {
+          "truth": 112,
+          "pred": 2.0,
+          "hedged": false,
+          "raw": "Let\u2019s count by subject:\n\n- **biology**: 2 rows \u2192",
+          "in_tok": 738,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.5220081806182861
+        },
+        {
+          "truth": 91,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- **cs**: rows",
+          "in_tok": 680,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.0960371494293213
+        }
+      ]
+    },
+    "subj_dup_n64": {
+      "n": 64,
+      "kind": "subj_dup",
+      "docs": 20,
+      "answer_rate": 0.15,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.0,
+      "mae": 258.0,
+      "mean_truth": 351.65,
+      "null_mae": 26.744999999999994,
+      "null_exact": 0.0,
+      "in_tok": 1339.95,
+      "out_tok": 16.0,
+      "sec": 1.7808573842048645,
+      "records": [
+        {
+          "truth": 335,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- biology: rows",
+          "in_tok": 1361,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.9790518283843994
+        },
+        {
+          "truth": 344,
+          "pred": 18.0,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- biology: 18",
+          "in_tok": 1333,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 2.1286439895629883
+        },
+        {
+          "truth": 394,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 1328,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 2.7364189624786377
+        },
+        {
+          "truth": 331,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.\n\nFrom the table:",
+          "in_tok": 1366,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.9322991371154785
+        },
+        {
+          "truth": 334,
+          "pred": 202.0,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- physics: 202",
+          "in_tok": 1368,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 2.262497901916504
+        },
+        {
+          "truth": 369,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- **cs**: rows",
+          "in_tok": 1284,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.8750348091125488
+        },
+        {
+          "truth": 409,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- econ: rows",
+          "in_tok": 1327,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.3770980834960938
+        },
+        {
+          "truth": 323,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- econ: rows",
+          "in_tok": 1364,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.8281958103179932
+        },
+        {
+          "truth": 325,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- **cs**: rows",
+          "in_tok": 1354,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 2.4766252040863037
+        },
+        {
+          "truth": 317,
+          "pred": 1.0,
+          "hedged": false,
+          "raw": "Let\u2019s count by subject:\n\n- **econ**: rows 1,",
+          "in_tok": 1350,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.7727539539337158
+        },
+        {
+          "truth": 331,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 1360,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.6446173191070557
+        },
+        {
+          "truth": 409,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- chemistry: rows",
+          "in_tok": 1327,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.606963872909546
+        },
+        {
+          "truth": 374,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.\n\nFrom the table:",
+          "in_tok": 1282,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.6428611278533936
+        },
+        {
+          "truth": 325,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- **biology**: rows",
+          "in_tok": 1356,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.5297749042510986
+        },
+        {
+          "truth": 393,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- biology: rows",
+          "in_tok": 1349,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.5511548519134521
+        },
+        {
+          "truth": 335,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- chemistry: rows",
+          "in_tok": 1361,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.4243481159210205
+        },
+        {
+          "truth": 344,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- **chemistry**: rows",
+          "in_tok": 1333,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.5535058975219727
+        },
+        {
+          "truth": 381,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- math: rows",
+          "in_tok": 1328,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.486603021621704
+        },
+        {
+          "truth": 325,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- **cs**: rows",
+          "in_tok": 1356,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.2446401119232178
+        },
+        {
+          "truth": 335,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- chemistry: rows",
+          "in_tok": 1312,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.564058780670166
+        }
+      ]
+    },
+    "subj_dup_n128": {
+      "n": 128,
+      "kind": "subj_dup",
+      "docs": 20,
+      "answer_rate": 0.2,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.0,
+      "mae": 1347.25,
+      "mean_truth": 1387.55,
+      "null_mae": 31.404999999999994,
+      "null_exact": 0.0,
+      "in_tok": 2562.6,
+      "out_tok": 16.0,
+      "sec": 1.699936616420746,
+      "records": [
+        {
+          "truth": 1368,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 2561,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.9647800922393799
+        },
+        {
+          "truth": 1401,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- math: rows",
+          "in_tok": 2576,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.8827528953552246
+        },
+        {
+          "truth": 1363,
+          "pred": 33.0,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- biology: 33",
+          "in_tok": 2547,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.7711560726165771
+        },
+        {
+          "truth": 1399,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 2516,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.998095989227295
+        },
+        {
+          "truth": 1372,
+          "pred": 27.0,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- biology: 27",
+          "in_tok": 2580,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.3672609329223633
+        },
+        {
+          "truth": 1393,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 2529,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.758213758468628
+        },
+        {
+          "truth": 1351,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 2591,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.5966529846191406
+        },
+        {
+          "truth": 1456,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count how many rows there are for each subject, then compute the",
+          "in_tok": 2563,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.5493497848510742
+        },
+        {
+          "truth": 1340,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- **physics**: rows",
+          "in_tok": 2596,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 2.655411958694458
+        },
+        {
+          "truth": 1367,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 2576,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.939075231552124
+        },
+        {
+          "truth": 1372,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 2551,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.692500114440918
+        },
+        {
+          "truth": 1339,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 2596,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.6164169311523438
+        },
+        {
+          "truth": 1343,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 2594,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.5380029678344727
+        },
+        {
+          "truth": 1456,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 2563,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.5637969970703125
+        },
+        {
+          "truth": 1403,
+          "pred": 27.0,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- physics: 27",
+          "in_tok": 2573,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.3620030879974365
+        },
+        {
+          "truth": 1398,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 2529,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.8256287574768066
+        },
+        {
+          "truth": 1403,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- **cs**:",
+          "in_tok": 2577,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.5301380157470703
+        },
+        {
+          "truth": 1371,
+          "pred": 33.0,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- biology: 33",
+          "in_tok": 2562,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.2915966510772705
+        },
+        {
+          "truth": 1363,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 2544,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.492311954498291
+        },
+        {
+          "truth": 1493,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 2528,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.6035871505737305
+        }
+      ]
+    },
+    "subj_dup_n256": {
+      "n": 256,
+      "kind": "subj_dup",
+      "docs": 20,
+      "answer_rate": 0.2,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.0,
+      "mae": 5599.5,
+      "mean_truth": 5429.45,
+      "null_mae": 40.88499999999995,
+      "null_exact": 0.0,
+      "in_tok": 5005.3,
+      "out_tok": 14.55,
+      "sec": 1.6405321955680847,
+      "records": [
+        {
+          "truth": 5492,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count how many rows there are for each subject, then compute the",
+          "in_tok": 4978,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.461003065109253
+        },
+        {
+          "truth": 5386,
+          "pred": 12240.0,
+          "hedged": false,
+          "raw": "12240",
+          "in_tok": 5021,
+          "out_tok": 2,
+          "rt": 0,
+          "sec": 1.4756011962890625
+        },
+        {
+          "truth": 5392,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 5023,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 2.3568477630615234
+        },
+        {
+          "truth": 5472,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count how many rows there are for each subject, then compute the",
+          "in_tok": 4963,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.6304070949554443
+        },
+        {
+          "truth": 5395,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count by subject.\n\nFrom the table, the subject counts are:",
+          "in_tok": 5022,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.8163719177246094
+        },
+        {
+          "truth": 5398,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count how many rows there are for each subject, then compute the",
+          "in_tok": 5022,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.6875929832458496
+        },
+        {
+          "truth": 5400,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 5024,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.3398940563201904
+        },
+        {
+          "truth": 5424,
+          "pred": 202.0,
+          "hedged": false,
+          "raw": "Let me count the number of rows for each subject:\n\n- econ: 202",
+          "in_tok": 5018,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.3245530128479004
+        },
+        {
+          "truth": 5410,
+          "pred": 256.0,
+          "hedged": false,
+          "raw": "256",
+          "in_tok": 5020,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1214067935943604
+        },
+        {
+          "truth": 5492,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 4981,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 2.091041088104248
+        },
+        {
+          "truth": 5427,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 4955,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.3716821670532227
+        },
+        {
+          "truth": 5424,
+          "pred": 256.0,
+          "hedged": false,
+          "raw": "Let\u2019s count by subject.\n\nWe have 256 rows.  \nWe need",
+          "in_tok": 5018,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.8729150295257568
+        },
+        {
+          "truth": 5388,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count how many rows there are for each subject, then compute the",
+          "in_tok": 5021,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 2.254547119140625
+        },
+        {
+          "truth": 5479,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject:\n\n- **cs**:",
+          "in_tok": 5007,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.6501648426055908
+        },
+        {
+          "truth": 5367,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count by subject.\n\nFrom the table, the subjects and their counts",
+          "in_tok": 5016,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.866528034210205
+        },
+        {
+          "truth": 5496,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count the number of rows per subject first.  \n\nFrom the table",
+          "in_tok": 5008,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.4848968982696533
+        },
+        {
+          "truth": 5492,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count how many rows there are for each subject, then compute the",
+          "in_tok": 4983,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.2879910469055176
+        },
+        {
+          "truth": 5398,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count how many rows there are for each subject, then compute the",
+          "in_tok": 5022,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.209054946899414
+        },
+        {
+          "truth": 5365,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count how many rows there are for each subject, then compute the",
+          "in_tok": 5021,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 1.409235954284668
+        },
+        {
+          "truth": 5492,
+          "pred": null,
+          "hedged": false,
+          "raw": "Let\u2019s count how many rows there are for each subject, then compute the",
+          "in_tok": 4983,
+          "out_tok": 16,
+          "rt": 0,
+          "sec": 2.0989089012145996
+        }
+      ]
+    },
+    "region_ct_n16": {
+      "n": 16,
+      "kind": "region_ct",
+      "docs": 20,
+      "answer_rate": 1.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.7,
+      "mae": 0.35,
+      "mean_truth": 8.45,
+      "null_mae": 4.15,
+      "null_exact": 0.05,
+      "in_tok": 368.65,
+      "out_tok": 1.0,
+      "sec": 1.2144765257835388,
+      "records": [
+        {
+          "truth": 14,
+          "pred": 14.0,
+          "hedged": false,
+          "raw": "14",
+          "in_tok": 356,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0896780490875244
+        },
+        {
+          "truth": 5,
+          "pred": 5.0,
+          "hedged": false,
+          "raw": "5",
+          "in_tok": 366,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0417230129241943
+        },
+        {
+          "truth": 3,
+          "pred": 3.0,
+          "hedged": false,
+          "raw": "3",
+          "in_tok": 365,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0812039375305176
+        },
+        {
+          "truth": 7,
+          "pred": 8.0,
+          "hedged": false,
+          "raw": "8",
+          "in_tok": 387,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1586740016937256
+        },
+        {
+          "truth": 12,
+          "pred": 14.0,
+          "hedged": false,
+          "raw": "14",
+          "in_tok": 372,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.059007167816162
+        },
+        {
+          "truth": 3,
+          "pred": 3.0,
+          "hedged": false,
+          "raw": "3",
+          "in_tok": 353,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1631531715393066
+        },
+        {
+          "truth": 15,
+          "pred": 15.0,
+          "hedged": false,
+          "raw": "15",
+          "in_tok": 388,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.4781322479248047
+        },
+        {
+          "truth": 9,
+          "pred": 10.0,
+          "hedged": false,
+          "raw": "10",
+          "in_tok": 381,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.4541399478912354
+        },
+        {
+          "truth": 14,
+          "pred": 14.0,
+          "hedged": false,
+          "raw": "14",
+          "in_tok": 361,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.9582409858703613
+        },
+        {
+          "truth": 2,
+          "pred": 2.0,
+          "hedged": false,
+          "raw": "2",
+          "in_tok": 370,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1624231338500977
+        },
+        {
+          "truth": 4,
+          "pred": 4.0,
+          "hedged": false,
+          "raw": "4",
+          "in_tok": 364,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0843613147735596
+        },
+        {
+          "truth": 12,
+          "pred": 12.0,
+          "hedged": false,
+          "raw": "12",
+          "in_tok": 378,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.420267105102539
+        },
+        {
+          "truth": 14,
+          "pred": 14.0,
+          "hedged": false,
+          "raw": "14",
+          "in_tok": 366,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0837056636810303
+        },
+        {
+          "truth": 7,
+          "pred": 8.0,
+          "hedged": false,
+          "raw": "8",
+          "in_tok": 362,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.298349142074585
+        },
+        {
+          "truth": 9,
+          "pred": 8.0,
+          "hedged": false,
+          "raw": "8",
+          "in_tok": 356,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2880768775939941
+        },
+        {
+          "truth": 12,
+          "pred": 13.0,
+          "hedged": false,
+          "raw": "13",
+          "in_tok": 376,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.334458827972412
+        },
+        {
+          "truth": 15,
+          "pred": 15.0,
+          "hedged": false,
+          "raw": "15",
+          "in_tok": 393,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0791118144989014
+        },
+        {
+          "truth": 8,
+          "pred": 8.0,
+          "hedged": false,
+          "raw": "8",
+          "in_tok": 361,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2590889930725098
+        },
+        {
+          "truth": 4,
+          "pred": 4.0,
+          "hedged": false,
+          "raw": "4",
+          "in_tok": 363,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.258544921875
+        },
+        {
+          "truth": 0,
+          "pred": 0.0,
+          "hedged": false,
+          "raw": "0",
+          "in_tok": 355,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.5371901988983154
+        }
+      ]
+    },
+    "region_ct_n32": {
+      "n": 32,
+      "kind": "region_ct",
+      "docs": 20,
+      "answer_rate": 1.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.2,
+      "mae": 1.8,
+      "mean_truth": 16.5,
+      "null_mae": 7.35,
+      "null_exact": 0.0,
+      "in_tok": 671.4,
+      "out_tok": 1.0,
+      "sec": 1.420239555835724,
+      "records": [
+        {
+          "truth": 5,
+          "pred": 4.0,
+          "hedged": false,
+          "raw": "4",
+          "in_tok": 629,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0580899715423584
+        },
+        {
+          "truth": 31,
+          "pred": 31.0,
+          "hedged": false,
+          "raw": "31",
+          "in_tok": 706,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.9115650653839111
+        },
+        {
+          "truth": 15,
+          "pred": 15.0,
+          "hedged": false,
+          "raw": "15",
+          "in_tok": 670,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.4623210430145264
+        },
+        {
+          "truth": 19,
+          "pred": 20.0,
+          "hedged": false,
+          "raw": "20",
+          "in_tok": 688,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.470362663269043
+        },
+        {
+          "truth": 22,
+          "pred": 20.0,
+          "hedged": false,
+          "raw": "20",
+          "in_tok": 690,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.9360859394073486
+        },
+        {
+          "truth": 20,
+          "pred": 24.0,
+          "hedged": false,
+          "raw": "24",
+          "in_tok": 697,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.8972108364105225
+        },
+        {
+          "truth": 19,
+          "pred": 20.0,
+          "hedged": false,
+          "raw": "20",
+          "in_tok": 696,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.583205223083496
+        },
+        {
+          "truth": 28,
+          "pred": 29.0,
+          "hedged": false,
+          "raw": "29",
+          "in_tok": 673,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.062304973602295
+        },
+        {
+          "truth": 13,
+          "pred": 15.0,
+          "hedged": false,
+          "raw": "15",
+          "in_tok": 700,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.402047872543335
+        },
+        {
+          "truth": 21,
+          "pred": 20.0,
+          "hedged": false,
+          "raw": "20",
+          "in_tok": 687,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.7195870876312256
+        },
+        {
+          "truth": 28,
+          "pred": 30.0,
+          "hedged": false,
+          "raw": "30",
+          "in_tok": 651,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.6737110614776611
+        },
+        {
+          "truth": 28,
+          "pred": 30.0,
+          "hedged": false,
+          "raw": "30",
+          "in_tok": 646,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.5139410495758057
+        },
+        {
+          "truth": 1,
+          "pred": 1.0,
+          "hedged": false,
+          "raw": "1",
+          "in_tok": 639,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.4488189220428467
+        },
+        {
+          "truth": 4,
+          "pred": 3.0,
+          "hedged": false,
+          "raw": "3",
+          "in_tok": 637,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.8676910400390625
+        },
+        {
+          "truth": 12,
+          "pred": 15.0,
+          "hedged": false,
+          "raw": "15",
+          "in_tok": 657,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3081090450286865
+        },
+        {
+          "truth": 1,
+          "pred": 1.0,
+          "hedged": false,
+          "raw": "1",
+          "in_tok": 652,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.6029119491577148
+        },
+        {
+          "truth": 12,
+          "pred": 15.0,
+          "hedged": false,
+          "raw": "15",
+          "in_tok": 701,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.249499797821045
+        },
+        {
+          "truth": 20,
+          "pred": 24.0,
+          "hedged": false,
+          "raw": "24",
+          "in_tok": 660,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.6037156581878662
+        },
+        {
+          "truth": 19,
+          "pred": 25.0,
+          "hedged": false,
+          "raw": "25",
+          "in_tok": 686,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3102660179138184
+        },
+        {
+          "truth": 12,
+          "pred": 10.0,
+          "hedged": false,
+          "raw": "10",
+          "in_tok": 663,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3233458995819092
+        }
+      ]
+    },
+    "region_ct_n64": {
+      "n": 64,
+      "kind": "region_ct",
+      "docs": 20,
+      "answer_rate": 1.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.25,
+      "mae": 2.0,
+      "mean_truth": 34.95,
+      "null_mae": 10.35,
+      "null_exact": 0.0,
+      "in_tok": 1286.5,
+      "out_tok": 1.0,
+      "sec": 1.3104055404663086,
+      "records": [
+        {
+          "truth": 48,
+          "pred": 54.0,
+          "hedged": false,
+          "raw": "54",
+          "in_tok": 1293,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2991938591003418
+        },
+        {
+          "truth": 30,
+          "pred": 30.0,
+          "hedged": false,
+          "raw": "30",
+          "in_tok": 1312,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2679452896118164
+        },
+        {
+          "truth": 45,
+          "pred": 45.0,
+          "hedged": false,
+          "raw": "45",
+          "in_tok": 1306,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0354712009429932
+        },
+        {
+          "truth": 12,
+          "pred": 10.0,
+          "hedged": false,
+          "raw": "10",
+          "in_tok": 1224,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.4113590717315674
+        },
+        {
+          "truth": 48,
+          "pred": 48.0,
+          "hedged": false,
+          "raw": "48",
+          "in_tok": 1277,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.573301076889038
+        },
+        {
+          "truth": 34,
+          "pred": 35.0,
+          "hedged": false,
+          "raw": "35",
+          "in_tok": 1318,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.5484459400177002
+        },
+        {
+          "truth": 45,
+          "pred": 45.0,
+          "hedged": false,
+          "raw": "45",
+          "in_tok": 1262,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2122321128845215
+        },
+        {
+          "truth": 48,
+          "pred": 50.0,
+          "hedged": false,
+          "raw": "50",
+          "in_tok": 1299,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.4247407913208008
+        },
+        {
+          "truth": 38,
+          "pred": 35.0,
+          "hedged": false,
+          "raw": "35",
+          "in_tok": 1310,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2387890815734863
+        },
+        {
+          "truth": 34,
+          "pred": 35.0,
+          "hedged": false,
+          "raw": "35",
+          "in_tok": 1320,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1319928169250488
+        },
+        {
+          "truth": 30,
+          "pred": 29.0,
+          "hedged": false,
+          "raw": "29",
+          "in_tok": 1285,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.4374310970306396
+        },
+        {
+          "truth": 7,
+          "pred": 6.0,
+          "hedged": false,
+          "raw": "6",
+          "in_tok": 1228,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.6772551536560059
+        },
+        {
+          "truth": 44,
+          "pred": 45.0,
+          "hedged": false,
+          "raw": "45",
+          "in_tok": 1285,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.411196231842041
+        },
+        {
+          "truth": 27,
+          "pred": 28.0,
+          "hedged": false,
+          "raw": "28",
+          "in_tok": 1311,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2585508823394775
+        },
+        {
+          "truth": 44,
+          "pred": 43.0,
+          "hedged": false,
+          "raw": "43",
+          "in_tok": 1284,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.469115972518921
+        },
+        {
+          "truth": 33,
+          "pred": 43.0,
+          "hedged": false,
+          "raw": "43",
+          "in_tok": 1310,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3468961715698242
+        },
+        {
+          "truth": 8,
+          "pred": 8.0,
+          "hedged": false,
+          "raw": "8",
+          "in_tok": 1231,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1605277061462402
+        },
+        {
+          "truth": 31,
+          "pred": 30.0,
+          "hedged": false,
+          "raw": "30",
+          "in_tok": 1297,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.7634601593017578
+        },
+        {
+          "truth": 45,
+          "pred": 48.0,
+          "hedged": false,
+          "raw": "48",
+          "in_tok": 1311,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.359929084777832
+        },
+        {
+          "truth": 48,
+          "pred": 54.0,
+          "hedged": false,
+          "raw": "54",
+          "in_tok": 1267,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1802771091461182
+        }
+      ]
+    },
+    "region_ct_n128": {
+      "n": 128,
+      "kind": "region_ct",
+      "docs": 20,
+      "answer_rate": 1.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.0,
+      "mae": 7.65,
+      "mean_truth": 81.3,
+      "null_mae": 11.440000000000001,
+      "null_exact": 0.0,
+      "in_tok": 2513.9,
+      "out_tok": 1.0,
+      "sec": 1.3806686878204346,
+      "records": [
+        {
+          "truth": 43,
+          "pred": 48.0,
+          "hedged": false,
+          "raw": "48",
+          "in_tok": 2474,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.5540359020233154
+        },
+        {
+          "truth": 76,
+          "pred": 75.0,
+          "hedged": false,
+          "raw": "75",
+          "in_tok": 2544,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1524701118469238
+        },
+        {
+          "truth": 91,
+          "pred": 103.0,
+          "hedged": false,
+          "raw": "103",
+          "in_tok": 2502,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3555140495300293
+        },
+        {
+          "truth": 89,
+          "pred": 85.0,
+          "hedged": false,
+          "raw": "85",
+          "in_tok": 2501,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3339581489562988
+        },
+        {
+          "truth": 87,
+          "pred": 85.0,
+          "hedged": false,
+          "raw": "85",
+          "in_tok": 2497,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.311264991760254
+        },
+        {
+          "truth": 91,
+          "pred": 103.0,
+          "hedged": false,
+          "raw": "103",
+          "in_tok": 2500,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2250430583953857
+        },
+        {
+          "truth": 91,
+          "pred": 85.0,
+          "hedged": false,
+          "raw": "85",
+          "in_tok": 2527,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3331778049468994
+        },
+        {
+          "truth": 72,
+          "pred": 76.0,
+          "hedged": false,
+          "raw": "76",
+          "in_tok": 2555,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.5552089214324951
+        },
+        {
+          "truth": 77,
+          "pred": 85.0,
+          "hedged": false,
+          "raw": "85",
+          "in_tok": 2532,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3138360977172852
+        },
+        {
+          "truth": 89,
+          "pred": 103.0,
+          "hedged": false,
+          "raw": "103",
+          "in_tok": 2515,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2215571403503418
+        },
+        {
+          "truth": 78,
+          "pred": 80.0,
+          "hedged": false,
+          "raw": "80",
+          "in_tok": 2533,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.4942243099212646
+        },
+        {
+          "truth": 73,
+          "pred": 76.0,
+          "hedged": false,
+          "raw": "76",
+          "in_tok": 2543,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3668568134307861
+        },
+        {
+          "truth": 93,
+          "pred": 103.0,
+          "hedged": false,
+          "raw": "103",
+          "in_tok": 2483,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.8539831638336182
+        },
+        {
+          "truth": 67,
+          "pred": 76.0,
+          "hedged": false,
+          "raw": "76",
+          "in_tok": 2538,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.5766029357910156
+        },
+        {
+          "truth": 93,
+          "pred": 103.0,
+          "hedged": false,
+          "raw": "103",
+          "in_tok": 2525,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.4973740577697754
+        },
+        {
+          "truth": 50,
+          "pred": 65.0,
+          "hedged": false,
+          "raw": "65",
+          "in_tok": 2473,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.381169080734253
+        },
+        {
+          "truth": 92,
+          "pred": 103.0,
+          "hedged": false,
+          "raw": "103",
+          "in_tok": 2510,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.607313871383667
+        },
+        {
+          "truth": 89,
+          "pred": 85.0,
+          "hedged": false,
+          "raw": "85",
+          "in_tok": 2519,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.394237995147705
+        },
+        {
+          "truth": 92,
+          "pred": 103.0,
+          "hedged": false,
+          "raw": "103",
+          "in_tok": 2482,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.937481164932251
+        },
+        {
+          "truth": 93,
+          "pred": 103.0,
+          "hedged": false,
+          "raw": "103",
+          "in_tok": 2525,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.148064136505127
+        }
+      ]
+    },
+    "region_ct_n256": {
+      "n": 256,
+      "kind": "region_ct",
+      "docs": 20,
+      "answer_rate": 1.0,
+      "hedge_rate": 0.0,
+      "exact_rate": 0.0,
+      "mae": 6.8,
+      "mean_truth": 150.55,
+      "null_mae": 7.384999999999996,
+      "null_exact": 0.0,
+      "in_tok": 4957.95,
+      "out_tok": 1.0,
+      "sec": 1.3916762590408325,
+      "records": [
+        {
+          "truth": 160,
+          "pred": 155.0,
+          "hedged": false,
+          "raw": "155",
+          "in_tok": 4974,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 2.054673910140991
+        },
+        {
+          "truth": 128,
+          "pred": 145.0,
+          "hedged": false,
+          "raw": "145",
+          "in_tok": 4910,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2272577285766602
+        },
+        {
+          "truth": 153,
+          "pred": 155.0,
+          "hedged": false,
+          "raw": "155",
+          "in_tok": 4967,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3255212306976318
+        },
+        {
+          "truth": 153,
+          "pred": 166.0,
+          "hedged": false,
+          "raw": "166",
+          "in_tok": 4969,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3118610382080078
+        },
+        {
+          "truth": 153,
+          "pred": 155.0,
+          "hedged": false,
+          "raw": "155",
+          "in_tok": 4969,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3172428607940674
+        },
+        {
+          "truth": 164,
+          "pred": 155.0,
+          "hedged": false,
+          "raw": "155",
+          "in_tok": 4976,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.0426709651947021
+        },
+        {
+          "truth": 153,
+          "pred": 156.0,
+          "hedged": false,
+          "raw": "156",
+          "in_tok": 4969,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.4902679920196533
+        },
+        {
+          "truth": 154,
+          "pred": 156.0,
+          "hedged": false,
+          "raw": "156",
+          "in_tok": 4970,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.844538927078247
+        },
+        {
+          "truth": 142,
+          "pred": 144.0,
+          "hedged": false,
+          "raw": "144",
+          "in_tok": 4933,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2049181461334229
+        },
+        {
+          "truth": 148,
+          "pred": 144.0,
+          "hedged": false,
+          "raw": "144",
+          "in_tok": 4956,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 2.2700486183166504
+        },
+        {
+          "truth": 143,
+          "pred": 145.0,
+          "hedged": false,
+          "raw": "145",
+          "in_tok": 4936,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2078840732574463
+        },
+        {
+          "truth": 149,
+          "pred": 155.0,
+          "hedged": false,
+          "raw": "155",
+          "in_tok": 4958,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3410980701446533
+        },
+        {
+          "truth": 126,
+          "pred": 145.0,
+          "hedged": false,
+          "raw": "145",
+          "in_tok": 4910,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1313419342041016
+        },
+        {
+          "truth": 155,
+          "pred": 156.0,
+          "hedged": false,
+          "raw": "156",
+          "in_tok": 4970,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.1556642055511475
+        },
+        {
+          "truth": 156,
+          "pred": 190.0,
+          "hedged": false,
+          "raw": "190",
+          "in_tok": 4972,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2317235469818115
+        },
+        {
+          "truth": 144,
+          "pred": 145.0,
+          "hedged": false,
+          "raw": "145",
+          "in_tok": 4942,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.16727614402771
+        },
+        {
+          "truth": 156,
+          "pred": 155.0,
+          "hedged": false,
+          "raw": "155",
+          "in_tok": 4972,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.3247370719909668
+        },
+        {
+          "truth": 162,
+          "pred": 166.0,
+          "hedged": false,
+          "raw": "166",
+          "in_tok": 4970,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 2.0034737586975098
+        },
+        {
+          "truth": 152,
+          "pred": 155.0,
+          "hedged": false,
+          "raw": "155",
+          "in_tok": 4962,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 1.2523860931396484
+        },
+        {
+          "truth": 160,
+          "pred": 166.0,
+          "hedged": false,
+          "raw": "166",
+          "in_tok": 4974,
+          "out_tok": 1,
+          "rt": 0,
+          "sec": 0.9289388656616211
+        }
+      ]
+    }
+  }
+}

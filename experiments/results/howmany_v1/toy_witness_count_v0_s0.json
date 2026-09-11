@@ -1,0 +1,33 @@
+{
+  "arm": "witness",
+  "tag": "count_v0",
+  "seed": 0,
+  "results": {
+    "count_v_0": {
+      "16": {
+        "mae": 0.0,
+        "r2": 1.0,
+        "within10": 1.0,
+        "exact": 1.0,
+        "null_mae": 4.26324462890625,
+        "null_within10": 0.0859375
+      },
+      "128": {
+        "mae": 0.0,
+        "r2": 1.0,
+        "within10": 1.0,
+        "exact": 1.0,
+        "null_mae": 34.022430419921875,
+        "null_within10": 0.08203125
+      },
+      "512": {
+        "mae": 0.0,
+        "r2": 1.0,
+        "within10": 1.0,
+        "exact": 1.0,
+        "null_mae": 130.78125,
+        "null_within10": 0.08984375
+      }
+    }
+  }
+}
