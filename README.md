@@ -14,8 +14,10 @@ submission, 2026. Sole student author: Brayden Siew.
   the figure generators read these files.
 - `experiments/make_*_pgf.py` - figure generators. Each one emits a
   PGFPlots `.tex` file from the stored results.
-- `paper/` - LaTeX source of the paper, references, and the scripts that
-  assemble the submission PDF.
+- `paper/figures/` - the PGFPlots sources emitted by the figure
+  generators, exactly as they appear in the paper.
+- `paper/` - references and the scripts that assemble the submission PDF.
+  The paper text itself is not in this repository.
 
 ## How to run
 

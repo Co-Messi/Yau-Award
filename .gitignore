@@ -2,3 +2,20 @@ __pycache__/
 .DS_Store
 .env
 *.pyc
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+paper/*.pdf
+
+# editor / tooling backups
+*.bak
+*.orig
+
+# paper text stays out of the public repo
+paper/*.tex
